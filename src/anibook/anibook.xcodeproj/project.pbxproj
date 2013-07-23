@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC67C15F179D301F002B383D /* BookButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C15B179D301F002B383D /* BookButton1.png */; };
-		FC67C160179D301F002B383D /* BookButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C15C179D301F002B383D /* BookButton2.png */; };
-		FC67C161179D301F002B383D /* BookButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C15D179D301F002B383D /* BookButton3.png */; };
-		FC67C162179D301F002B383D /* BookButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C15E179D301F002B383D /* BookButton4.png */; };
-		FC67C165179D3249002B383D /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C163179D3249002B383D /* BookShelfBackground.png */; };
-		FC67C166179D3249002B383D /* particle-snow.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C164179D3249002B383D /* particle-snow.png */; };
+		FC6D6763179E7C02003E9ACA /* AnimationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675B179E7C02003E9ACA /* AnimationButton.png */; };
+		FC6D6764179E7C02003E9ACA /* AutoplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675C179E7C02003E9ACA /* AutoplayButton.png */; };
+		FC6D6765179E7C02003E9ACA /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */; };
+		FC6D6766179E7C02003E9ACA /* BookShelfTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675E179E7C02003E9ACA /* BookShelfTitle.png */; };
+		FC6D6767179E7C02003E9ACA /* particle-fire.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675F179E7C02003E9ACA /* particle-fire.png */; };
+		FC6D6768179E7C02003E9ACA /* particle-snow.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D6760179E7C02003E9ACA /* particle-snow.png */; };
+		FC6D6769179E7C02003E9ACA /* ParticleButon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D6761179E7C02003E9ACA /* ParticleButon.png */; };
+		FC6D676A179E7C02003E9ACA /* SoundButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D6762179E7C02003E9ACA /* SoundButton.png */; };
 		FC9AD425179BEC4B00A0988E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD424179BEC4B00A0988E /* UIKit.framework */; };
 		FC9AD427179BEC4B00A0988E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD426179BEC4B00A0988E /* Foundation.framework */; };
 		FC9AD429179BEC4B00A0988E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD428179BEC4B00A0988E /* CoreGraphics.framework */; };
@@ -168,12 +170,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC67C15B179D301F002B383D /* BookButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookButton1.png; sourceTree = "<group>"; };
-		FC67C15C179D301F002B383D /* BookButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookButton2.png; sourceTree = "<group>"; };
-		FC67C15D179D301F002B383D /* BookButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookButton3.png; sourceTree = "<group>"; };
-		FC67C15E179D301F002B383D /* BookButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookButton4.png; sourceTree = "<group>"; };
-		FC67C163179D3249002B383D /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
-		FC67C164179D3249002B383D /* particle-snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "particle-snow.png"; sourceTree = "<group>"; };
+		FC6D675B179E7C02003E9ACA /* AnimationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimationButton.png; sourceTree = "<group>"; };
+		FC6D675C179E7C02003E9ACA /* AutoplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoplayButton.png; sourceTree = "<group>"; };
+		FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
+		FC6D675E179E7C02003E9ACA /* BookShelfTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfTitle.png; sourceTree = "<group>"; };
+		FC6D675F179E7C02003E9ACA /* particle-fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "particle-fire.png"; sourceTree = "<group>"; };
+		FC6D6760179E7C02003E9ACA /* particle-snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "particle-snow.png"; sourceTree = "<group>"; };
+		FC6D6761179E7C02003E9ACA /* ParticleButon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParticleButon.png; sourceTree = "<group>"; };
+		FC6D6762179E7C02003E9ACA /* SoundButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundButton.png; sourceTree = "<group>"; };
 		FC9AD421179BEC4B00A0988E /* anibook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anibook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AD424179BEC4B00A0988E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC9AD426179BEC4B00A0988E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -508,12 +512,14 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FC67C15B179D301F002B383D /* BookButton1.png */,
-				FC67C15C179D301F002B383D /* BookButton2.png */,
-				FC67C15D179D301F002B383D /* BookButton3.png */,
-				FC67C15E179D301F002B383D /* BookButton4.png */,
-				FC67C163179D3249002B383D /* BookShelfBackground.png */,
-				FC67C164179D3249002B383D /* particle-snow.png */,
+				FC6D675B179E7C02003E9ACA /* AnimationButton.png */,
+				FC6D675C179E7C02003E9ACA /* AutoplayButton.png */,
+				FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */,
+				FC6D675E179E7C02003E9ACA /* BookShelfTitle.png */,
+				FC6D675F179E7C02003E9ACA /* particle-fire.png */,
+				FC6D6760179E7C02003E9ACA /* particle-snow.png */,
+				FC6D6761179E7C02003E9ACA /* ParticleButon.png */,
+				FC6D6762179E7C02003E9ACA /* SoundButton.png */,
 			);
 			name = Images;
 			path = ../../../resource/Images;
@@ -1102,12 +1108,14 @@
 				FCBEA39D179C01D700028D49 /* BookShelf.ccbi in Resources */,
 				FC9E3FB2179C0F1A0099DB82 /* fps_images-hd.png in Resources */,
 				FC9E3FB3179C0F1A0099DB82 /* fps_images.png in Resources */,
-				FC67C15F179D301F002B383D /* BookButton1.png in Resources */,
-				FC67C160179D301F002B383D /* BookButton2.png in Resources */,
-				FC67C161179D301F002B383D /* BookButton3.png in Resources */,
-				FC67C162179D301F002B383D /* BookButton4.png in Resources */,
-				FC67C165179D3249002B383D /* BookShelfBackground.png in Resources */,
-				FC67C166179D3249002B383D /* particle-snow.png in Resources */,
+				FC6D6763179E7C02003E9ACA /* AnimationButton.png in Resources */,
+				FC6D6764179E7C02003E9ACA /* AutoplayButton.png in Resources */,
+				FC6D6765179E7C02003E9ACA /* BookShelfBackground.png in Resources */,
+				FC6D6766179E7C02003E9ACA /* BookShelfTitle.png in Resources */,
+				FC6D6767179E7C02003E9ACA /* particle-fire.png in Resources */,
+				FC6D6768179E7C02003E9ACA /* particle-snow.png in Resources */,
+				FC6D6769179E7C02003E9ACA /* ParticleButon.png in Resources */,
+				FC6D676A179E7C02003E9ACA /* SoundButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
