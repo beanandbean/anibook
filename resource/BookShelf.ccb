@@ -478,7 +478,20 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>CPBookButton</string>
+				<key>customProperties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>bookName</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Animation</string>
+					</dict>
+				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Animation Button</string>
 				<key>memberVarAssignmentName</key>
@@ -558,8 +571,8 @@
 						<string>BlockCCControl</string>
 						<key>value</key>
 						<array>
-							<string></string>
-							<integer>0</integer>
+							<string>pressedBook:</string>
+							<integer>1</integer>
 							<integer>32</integer>
 						</array>
 					</dict>
@@ -699,6 +712,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
@@ -2375,14 +2390,12 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>CPBookShelf</string>
 		<key>displayName</key>
 		<string>CCLayer</string>
 		<key>memberVarAssignmentName</key>
