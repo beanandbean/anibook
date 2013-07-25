@@ -389,8 +389,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>696</real>
-							<real>685</real>
+							<real>580</real>
+							<real>697</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -432,7 +432,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Chalkduster</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -491,7 +491,7 @@
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
-						<string>Infinite Animation: Use chained timeline.</string>
+						<string>The sun-earth-moon system is always going.</string>
 					</dict>
 				</array>
 			</dict>
@@ -556,8 +556,8 @@
 									<integer>6</integer>
 									<key>value</key>
 									<array>
-										<integer>4</integer>
-										<integer>50</integer>
+										<integer>0</integer>
+										<integer>252</integer>
 										<integer>255</integer>
 									</array>
 								</dict>
@@ -653,8 +653,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>694</real>
-							<real>687</real>
+							<real>578</real>
+							<real>699</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -706,7 +706,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Chalkduster</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -732,8 +732,8 @@
 						<string>Color3</string>
 						<key>value</key>
 						<array>
-							<integer>255</integer>
-							<integer>38</integer>
+							<integer>254</integer>
+							<integer>185</integer>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -771,7 +771,7 @@
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
-						<string>Infinite Animation: Use chained timeline.</string>
+						<string>The sun-earth-moon system is always going.</string>
 					</dict>
 				</array>
 			</dict>
@@ -931,7 +931,7 @@
 								<key>type</key>
 								<string>Degrees</string>
 								<key>value</key>
-								<real>1080</real>
+								<real>894</real>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -953,8 +953,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>seqExpanded</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>animatedProperties</key>
@@ -1091,7 +1089,7 @@
 								<key>type</key>
 								<string>Degrees</string>
 								<key>value</key>
-								<real>1080</real>
+								<real>894</real>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -1113,8 +1111,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>seqExpanded</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1183,7 +1179,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>360</real>
+						<real>298</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1781,7 +1777,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>6</real>
+			<real>4.9666666984558105</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
