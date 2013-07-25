@@ -17,6 +17,20 @@
 		2C10EB43179FF39E00BE3984 /* CPBookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C10EB42179FF39E00BE3984 /* CPBookPage.m */; };
 		2CBD8292179FE9B500A86F27 /* CPBookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8291179FE9B500A86F27 /* CPBookShelf.m */; };
 		2CBD8295179FEA0C00A86F27 /* CPBookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8294179FEA0C00A86F27 /* CPBookButton.m */; };
+		2CED752817A1086500FB53AF /* Animation_02.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752517A1086500FB53AF /* Animation_02.ccbi */; };
+		2CED752917A1086500FB53AF /* Animation_03.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752617A1086500FB53AF /* Animation_03.ccbi */; };
+		2CED752A17A1086500FB53AF /* Tower.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752717A1086500FB53AF /* Tower.ccbi */; };
+		2CED753517A1093100FB53AF /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752B17A1093100FB53AF /* Spaceship.png */; };
+		2CED753617A1093100FB53AF /* Spaceship1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752C17A1093100FB53AF /* Spaceship1.png */; };
+		2CED753717A1093100FB53AF /* Tower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752D17A1093100FB53AF /* Tower1.png */; };
+		2CED753817A1093100FB53AF /* Tower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752E17A1093100FB53AF /* Tower2.png */; };
+		2CED753917A1093100FB53AF /* Tower3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752F17A1093100FB53AF /* Tower3.png */; };
+		2CED753A17A1093100FB53AF /* Tower4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753017A1093100FB53AF /* Tower4.png */; };
+		2CED753B17A1093100FB53AF /* Tower5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753117A1093100FB53AF /* Tower5.png */; };
+		2CED753C17A1093100FB53AF /* Tower6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753217A1093100FB53AF /* Tower6.png */; };
+		2CED753D17A1093100FB53AF /* Tower7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753317A1093100FB53AF /* Tower7.png */; };
+		2CED753E17A1093100FB53AF /* Tower8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753417A1093100FB53AF /* Tower8.png */; };
+		2CED754117A109E400FB53AF /* CPAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED754017A109E400FB53AF /* CPAnimationButton.m */; };
 		FC6D6763179E7C02003E9ACA /* AnimationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675B179E7C02003E9ACA /* AnimationButton.png */; };
 		FC6D6764179E7C02003E9ACA /* AutoplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675C179E7C02003E9ACA /* AutoplayButton.png */; };
 		FC6D6765179E7C02003E9ACA /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */; };
@@ -193,6 +207,21 @@
 		2CBD8291179FE9B500A86F27 /* CPBookShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookShelf.m; sourceTree = "<group>"; };
 		2CBD8293179FEA0C00A86F27 /* CPBookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBookButton.h; sourceTree = "<group>"; };
 		2CBD8294179FEA0C00A86F27 /* CPBookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookButton.m; sourceTree = "<group>"; };
+		2CED752517A1086500FB53AF /* Animation_02.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_02.ccbi; path = ../../../resource/Animation_02.ccbi; sourceTree = "<group>"; };
+		2CED752617A1086500FB53AF /* Animation_03.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_03.ccbi; path = ../../../resource/Animation_03.ccbi; sourceTree = "<group>"; };
+		2CED752717A1086500FB53AF /* Tower.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tower.ccbi; path = ../../../resource/Tower.ccbi; sourceTree = "<group>"; };
+		2CED752B17A1093100FB53AF /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		2CED752C17A1093100FB53AF /* Spaceship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship1.png; sourceTree = "<group>"; };
+		2CED752D17A1093100FB53AF /* Tower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower1.png; sourceTree = "<group>"; };
+		2CED752E17A1093100FB53AF /* Tower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower2.png; sourceTree = "<group>"; };
+		2CED752F17A1093100FB53AF /* Tower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower3.png; sourceTree = "<group>"; };
+		2CED753017A1093100FB53AF /* Tower4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower4.png; sourceTree = "<group>"; };
+		2CED753117A1093100FB53AF /* Tower5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower5.png; sourceTree = "<group>"; };
+		2CED753217A1093100FB53AF /* Tower6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower6.png; sourceTree = "<group>"; };
+		2CED753317A1093100FB53AF /* Tower7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower7.png; sourceTree = "<group>"; };
+		2CED753417A1093100FB53AF /* Tower8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tower8.png; sourceTree = "<group>"; };
+		2CED753F17A109E400FB53AF /* CPAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationButton.h; sourceTree = "<group>"; };
+		2CED754017A109E400FB53AF /* CPAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationButton.m; sourceTree = "<group>"; };
 		FC6D675B179E7C02003E9ACA /* AnimationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimationButton.png; sourceTree = "<group>"; };
 		FC6D675C179E7C02003E9ACA /* AutoplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoplayButton.png; sourceTree = "<group>"; };
 		FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
@@ -535,6 +564,16 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2CED752B17A1093100FB53AF /* Spaceship.png */,
+				2CED752C17A1093100FB53AF /* Spaceship1.png */,
+				2CED752D17A1093100FB53AF /* Tower1.png */,
+				2CED752E17A1093100FB53AF /* Tower2.png */,
+				2CED752F17A1093100FB53AF /* Tower3.png */,
+				2CED753017A1093100FB53AF /* Tower4.png */,
+				2CED753117A1093100FB53AF /* Tower5.png */,
+				2CED753217A1093100FB53AF /* Tower6.png */,
+				2CED753317A1093100FB53AF /* Tower7.png */,
+				2CED753417A1093100FB53AF /* Tower8.png */,
 				2C10EB35179FF36A00BE3984 /* AnimationBackground.png */,
 				2C10EB36179FF36A00BE3984 /* Earth.png */,
 				2C10EB37179FF36A00BE3984 /* HomeButton.png */,
@@ -591,17 +630,19 @@
 		FC9AD42A179BEC4B00A0988E /* anibook */ = {
 			isa = PBXGroup;
 			children = (
+				2CED753F17A109E400FB53AF /* CPAnimationButton.h */,
+				2CED754017A109E400FB53AF /* CPAnimationButton.m */,
 				FC9AD60C179BEECF00A0988E /* CPAppDelegate.h */,
 				FC9AD60D179BEECF00A0988E /* CPAppDelegate.m */,
-				FC9AD441179BECDF00A0988E /* libs */,
-				FCBEA39A179C01BA00028D49 /* Resources */,
-				FC9AD42B179BEC4B00A0988E /* Supporting Files */,
-				2CBD8290179FE9B500A86F27 /* CPBookShelf.h */,
-				2CBD8291179FE9B500A86F27 /* CPBookShelf.m */,
 				2CBD8293179FEA0C00A86F27 /* CPBookButton.h */,
 				2CBD8294179FEA0C00A86F27 /* CPBookButton.m */,
 				2C10EB41179FF39E00BE3984 /* CPBookPage.h */,
 				2C10EB42179FF39E00BE3984 /* CPBookPage.m */,
+				2CBD8290179FE9B500A86F27 /* CPBookShelf.h */,
+				2CBD8291179FE9B500A86F27 /* CPBookShelf.m */,
+				FC9AD441179BECDF00A0988E /* libs */,
+				FCBEA39A179C01BA00028D49 /* Resources */,
+				FC9AD42B179BEC4B00A0988E /* Supporting Files */,
 			);
 			path = anibook;
 			sourceTree = "<group>";
@@ -1067,6 +1108,9 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
+				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
+				2CED752717A1086500FB53AF /* Tower.ccbi */,
 				2C10EB33179FF35B00BE3984 /* Animation_01.ccbi */,
 				FC67C15A179D301F002B383D /* Images */,
 				FCBEA39B179C01D700028D49 /* BookShelf.ccbi */,
@@ -1159,6 +1203,19 @@
 				2C10EB3E179FF36A00BE3984 /* Moon.png in Resources */,
 				2C10EB3F179FF36A00BE3984 /* NextButton.png in Resources */,
 				2C10EB40179FF36A00BE3984 /* PreviousButton.png in Resources */,
+				2CED752817A1086500FB53AF /* Animation_02.ccbi in Resources */,
+				2CED752917A1086500FB53AF /* Animation_03.ccbi in Resources */,
+				2CED752A17A1086500FB53AF /* Tower.ccbi in Resources */,
+				2CED753517A1093100FB53AF /* Spaceship.png in Resources */,
+				2CED753617A1093100FB53AF /* Spaceship1.png in Resources */,
+				2CED753717A1093100FB53AF /* Tower1.png in Resources */,
+				2CED753817A1093100FB53AF /* Tower2.png in Resources */,
+				2CED753917A1093100FB53AF /* Tower3.png in Resources */,
+				2CED753A17A1093100FB53AF /* Tower4.png in Resources */,
+				2CED753B17A1093100FB53AF /* Tower5.png in Resources */,
+				2CED753C17A1093100FB53AF /* Tower6.png in Resources */,
+				2CED753D17A1093100FB53AF /* Tower7.png in Resources */,
+				2CED753E17A1093100FB53AF /* Tower8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1298,6 +1355,7 @@
 				2CBD8292179FE9B500A86F27 /* CPBookShelf.m in Sources */,
 				2CBD8295179FEA0C00A86F27 /* CPBookButton.m in Sources */,
 				2C10EB43179FF39E00BE3984 /* CPBookPage.m in Sources */,
+				2CED754117A109E400FB53AF /* CPAnimationButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

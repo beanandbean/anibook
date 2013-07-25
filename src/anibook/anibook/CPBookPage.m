@@ -10,9 +10,22 @@
 
 #import "CPBookShelf.h"
 
+#import "CPAnimationButton.h"
+
 #import "CCBReader.h"
+#import "CCBAnimationManager.h"
+
+@interface CPBookPage ()
+
+@property (retain, nonatomic) CCBAnimationManager *animationManager;
+
+@end
 
 @implementation CPBookPage
+
+- (void)didLoadFromCCB {
+    self.animationManager = self.userObject;
+}
 
 - (void)pressedHome:(id)sender {
     CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
@@ -28,6 +41,10 @@
 - (void)pressedPrev:(id)sender {
     [CPBookShelf decreaseCurrentPage];
     [CPBookShelf loadCurrentPage];
+}
+
+- (void)pressedAnimation:(id)sender {
+    [self.animationManager runAnimationsForSequenceNamed:((CPAnimationButton *)sender).animationName];
 }
 
 @end
