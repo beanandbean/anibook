@@ -191,6 +191,26 @@
 		FCBEA398179C01A200028D49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBEA396179C01A200028D49 /* AudioToolbox.framework */; };
 		FCBEA399179C01A200028D49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBEA397179C01A200028D49 /* AVFoundation.framework */; };
 		FCBEA39D179C01D700028D49 /* BookShelf.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FCBEA39B179C01D700028D49 /* BookShelf.ccbi */; };
+		FCC48C5E17A11FF10058075C /* Hero.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C5C17A11FF10058075C /* Hero.ccbi */; };
+		FCC48C5F17A11FF10058075C /* TowerSingle.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C5D17A11FF10058075C /* TowerSingle.ccbi */; };
+		FCC48C7217A11FFD0058075C /* Hero_01.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6017A11FFD0058075C /* Hero_01.png */; };
+		FCC48C7317A11FFD0058075C /* Hero_02.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6117A11FFD0058075C /* Hero_02.png */; };
+		FCC48C7417A11FFD0058075C /* Hero_03.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6217A11FFD0058075C /* Hero_03.png */; };
+		FCC48C7517A11FFD0058075C /* Hero_04.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6317A11FFD0058075C /* Hero_04.png */; };
+		FCC48C7617A11FFD0058075C /* Hero_05.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6417A11FFD0058075C /* Hero_05.png */; };
+		FCC48C7717A11FFD0058075C /* Hero_06.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6517A11FFD0058075C /* Hero_06.png */; };
+		FCC48C7817A11FFD0058075C /* Hero_07.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6617A11FFD0058075C /* Hero_07.png */; };
+		FCC48C7917A11FFD0058075C /* Hero_08.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6717A11FFD0058075C /* Hero_08.png */; };
+		FCC48C7A17A11FFD0058075C /* Hero_09.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6817A11FFD0058075C /* Hero_09.png */; };
+		FCC48C7B17A11FFD0058075C /* Hero_10.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6917A11FFD0058075C /* Hero_10.png */; };
+		FCC48C7C17A11FFD0058075C /* TowerSingle-01.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6A17A11FFD0058075C /* TowerSingle-01.png */; };
+		FCC48C7D17A11FFD0058075C /* TowerSingle-02.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6B17A11FFD0058075C /* TowerSingle-02.png */; };
+		FCC48C7E17A11FFD0058075C /* TowerSingle-03.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6C17A11FFD0058075C /* TowerSingle-03.png */; };
+		FCC48C7F17A11FFD0058075C /* TowerSingle-04.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6D17A11FFD0058075C /* TowerSingle-04.png */; };
+		FCC48C8017A11FFD0058075C /* TowerSingle-05.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6E17A11FFD0058075C /* TowerSingle-05.png */; };
+		FCC48C8117A11FFD0058075C /* TowerSingle-06.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */; };
+		FCC48C8217A11FFD0058075C /* TowerSingle-07.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C7017A11FFD0058075C /* TowerSingle-07.png */; };
+		FCC48C8317A11FFD0058075C /* TowerSingle-08.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C7117A11FFD0058075C /* TowerSingle-08.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -538,6 +558,26 @@
 		FCBEA396179C01A200028D49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FCBEA397179C01A200028D49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FCBEA39B179C01D700028D49 /* BookShelf.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = BookShelf.ccbi; path = ../../../resource/BookShelf.ccbi; sourceTree = "<group>"; };
+		FCC48C5C17A11FF10058075C /* Hero.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hero.ccbi; path = ../../../resource/Hero.ccbi; sourceTree = "<group>"; };
+		FCC48C5D17A11FF10058075C /* TowerSingle.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = TowerSingle.ccbi; path = ../../../resource/TowerSingle.ccbi; sourceTree = "<group>"; };
+		FCC48C6017A11FFD0058075C /* Hero_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_01.png; sourceTree = "<group>"; };
+		FCC48C6117A11FFD0058075C /* Hero_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_02.png; sourceTree = "<group>"; };
+		FCC48C6217A11FFD0058075C /* Hero_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_03.png; sourceTree = "<group>"; };
+		FCC48C6317A11FFD0058075C /* Hero_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_04.png; sourceTree = "<group>"; };
+		FCC48C6417A11FFD0058075C /* Hero_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_05.png; sourceTree = "<group>"; };
+		FCC48C6517A11FFD0058075C /* Hero_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_06.png; sourceTree = "<group>"; };
+		FCC48C6617A11FFD0058075C /* Hero_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_07.png; sourceTree = "<group>"; };
+		FCC48C6717A11FFD0058075C /* Hero_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_08.png; sourceTree = "<group>"; };
+		FCC48C6817A11FFD0058075C /* Hero_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_09.png; sourceTree = "<group>"; };
+		FCC48C6917A11FFD0058075C /* Hero_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hero_10.png; sourceTree = "<group>"; };
+		FCC48C6A17A11FFD0058075C /* TowerSingle-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-01.png"; sourceTree = "<group>"; };
+		FCC48C6B17A11FFD0058075C /* TowerSingle-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-02.png"; sourceTree = "<group>"; };
+		FCC48C6C17A11FFD0058075C /* TowerSingle-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-03.png"; sourceTree = "<group>"; };
+		FCC48C6D17A11FFD0058075C /* TowerSingle-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-04.png"; sourceTree = "<group>"; };
+		FCC48C6E17A11FFD0058075C /* TowerSingle-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-05.png"; sourceTree = "<group>"; };
+		FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-06.png"; sourceTree = "<group>"; };
+		FCC48C7017A11FFD0058075C /* TowerSingle-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-07.png"; sourceTree = "<group>"; };
+		FCC48C7117A11FFD0058075C /* TowerSingle-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-08.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -564,6 +604,24 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FCC48C6017A11FFD0058075C /* Hero_01.png */,
+				FCC48C6117A11FFD0058075C /* Hero_02.png */,
+				FCC48C6217A11FFD0058075C /* Hero_03.png */,
+				FCC48C6317A11FFD0058075C /* Hero_04.png */,
+				FCC48C6417A11FFD0058075C /* Hero_05.png */,
+				FCC48C6517A11FFD0058075C /* Hero_06.png */,
+				FCC48C6617A11FFD0058075C /* Hero_07.png */,
+				FCC48C6717A11FFD0058075C /* Hero_08.png */,
+				FCC48C6817A11FFD0058075C /* Hero_09.png */,
+				FCC48C6917A11FFD0058075C /* Hero_10.png */,
+				FCC48C6A17A11FFD0058075C /* TowerSingle-01.png */,
+				FCC48C6B17A11FFD0058075C /* TowerSingle-02.png */,
+				FCC48C6C17A11FFD0058075C /* TowerSingle-03.png */,
+				FCC48C6D17A11FFD0058075C /* TowerSingle-04.png */,
+				FCC48C6E17A11FFD0058075C /* TowerSingle-05.png */,
+				FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */,
+				FCC48C7017A11FFD0058075C /* TowerSingle-07.png */,
+				FCC48C7117A11FFD0058075C /* TowerSingle-08.png */,
 				2CED752B17A1093100FB53AF /* Spaceship.png */,
 				2CED752C17A1093100FB53AF /* Spaceship1.png */,
 				2CED752D17A1093100FB53AF /* Tower1.png */,
@@ -1108,6 +1166,8 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FCC48C5C17A11FF10058075C /* Hero.ccbi */,
+				FCC48C5D17A11FF10058075C /* TowerSingle.ccbi */,
 				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
 				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
 				2CED752717A1086500FB53AF /* Tower.ccbi */,
@@ -1216,6 +1276,26 @@
 				2CED753C17A1093100FB53AF /* Tower6.png in Resources */,
 				2CED753D17A1093100FB53AF /* Tower7.png in Resources */,
 				2CED753E17A1093100FB53AF /* Tower8.png in Resources */,
+				FCC48C5E17A11FF10058075C /* Hero.ccbi in Resources */,
+				FCC48C5F17A11FF10058075C /* TowerSingle.ccbi in Resources */,
+				FCC48C7217A11FFD0058075C /* Hero_01.png in Resources */,
+				FCC48C7317A11FFD0058075C /* Hero_02.png in Resources */,
+				FCC48C7417A11FFD0058075C /* Hero_03.png in Resources */,
+				FCC48C7517A11FFD0058075C /* Hero_04.png in Resources */,
+				FCC48C7617A11FFD0058075C /* Hero_05.png in Resources */,
+				FCC48C7717A11FFD0058075C /* Hero_06.png in Resources */,
+				FCC48C7817A11FFD0058075C /* Hero_07.png in Resources */,
+				FCC48C7917A11FFD0058075C /* Hero_08.png in Resources */,
+				FCC48C7A17A11FFD0058075C /* Hero_09.png in Resources */,
+				FCC48C7B17A11FFD0058075C /* Hero_10.png in Resources */,
+				FCC48C7C17A11FFD0058075C /* TowerSingle-01.png in Resources */,
+				FCC48C7D17A11FFD0058075C /* TowerSingle-02.png in Resources */,
+				FCC48C7E17A11FFD0058075C /* TowerSingle-03.png in Resources */,
+				FCC48C7F17A11FFD0058075C /* TowerSingle-04.png in Resources */,
+				FCC48C8017A11FFD0058075C /* TowerSingle-05.png in Resources */,
+				FCC48C8117A11FFD0058075C /* TowerSingle-06.png in Resources */,
+				FCC48C8217A11FFD0058075C /* TowerSingle-07.png in Resources */,
+				FCC48C8317A11FFD0058075C /* TowerSingle-08.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

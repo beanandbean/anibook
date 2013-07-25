@@ -43,7 +43,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower1.png</string>
+										<string>Images/Hero_01.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -61,7 +61,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower2.png</string>
+										<string>Images/Hero_02.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -79,7 +79,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower3.png</string>
+										<string>Images/Hero_03.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -92,12 +92,12 @@
 									<key>name</key>
 									<string>displayFrame</string>
 									<key>time</key>
-									<real>0.46666666865348816</real>
+									<real>0.5</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower4.png</string>
+										<string>Images/Hero_04.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -115,7 +115,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower5.png</string>
+										<string>Images/Hero_05.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -133,7 +133,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower6.png</string>
+										<string>Images/Hero_06.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -151,7 +151,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower7.png</string>
+										<string>Images/Hero_07.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -169,7 +169,43 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>Images/Tower8.png</string>
+										<string>Images/Hero_08.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>displayFrame</string>
+									<key>time</key>
+									<real>1.3333333730697632</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>Images/Hero_09.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>displayFrame</string>
+									<key>time</key>
+									<real>1.5</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>Images/Hero_10.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -242,7 +278,7 @@
 					<dict>
 						<key>baseValue</key>
 						<array>
-							<string>Images/Tower1.png</string>
+							<string>Images/Hero_01.png</string>
 							<string>Use regular file</string>
 						</array>
 						<key>name</key>
@@ -252,12 +288,10 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>Images/Tower1.png</string>
+							<string>Images/Hero_01.png</string>
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
@@ -279,8 +313,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>118</real>
-					<real>118</real>
+					<real>109</real>
+					<real>150</real>
 					<integer>0</integer>
 				</array>
 			</dict>
@@ -385,13 +419,13 @@
 			<key>chainedSequenceId</key>
 			<integer>0</integer>
 			<key>length</key>
-			<real>1.3333333730697632</real>
+			<real>1.6666667461395264</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>1.3333333730697632</real>
+			<real>1.6666667461395264</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
