@@ -14,6 +14,7 @@
 
 #import "CCBReader.h"
 #import "CCBAnimationManager.h"
+#import "SimpleAudioEngine.h"
 
 @interface CPBookPage ()
 
@@ -31,6 +32,8 @@
     CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
     
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFlipX transitionWithDuration:1.0 scene:scene]];
+    
+    [[SimpleAudioEngine sharedEngine] playEffect:@"ButtonSound.caf"];
 }
 
 - (void)pressedNext:(id)sender {
