@@ -11,5 +11,6 @@
 @interface CPControlButton : CCControlButton
 
 @property (retain, nonatomic) NSString *soundEffect;
+@property (nonatomic) float soundVolume;
 
 @end

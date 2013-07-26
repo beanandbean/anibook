@@ -93,12 +93,30 @@
 				</array>
 			</dict>
 			<dict>
+				<key>animatedProperties</key>
+				<dict>
+					<key>0</key>
+					<dict/>
+				</dict>
 				<key>baseClass</key>
 				<string>CCControlButton</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
+				<key>customProperties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>animationName</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Default Timeline</string>
+					</dict>
+				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Wizard</string>
 				<key>memberVarAssignmentName</key>
@@ -177,7 +195,7 @@
 						<key>type</key>
 						<string>String</string>
 						<key>value</key>
-						<string>Title</string>
+						<string></string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -299,6 +317,10 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
@@ -872,8 +894,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>649</real>
-							<real>590</real>
+							<real>678</real>
+							<real>578</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -974,8 +996,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>400</real>
-							<real>211</real>
+							<real>510</real>
+							<real>195</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -1409,7 +1431,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>1</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

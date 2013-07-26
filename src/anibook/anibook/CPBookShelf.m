@@ -12,6 +12,8 @@
 
 #import "CCBReader.h"
 
+#import "SimpleAudioEngine.h"
+
 static NSString *currentBook;
 static int currentPage;
 
@@ -44,11 +46,31 @@ static int currentPage;
     }
 }
 
+- (void)didLoadFromCCB {
+    if (self.backgroundVolume) {
+        [SimpleAudioEngine sharedEngine].backgroundMusicVolume = 0.6;
+    } else {
+        [SimpleAudioEngine sharedEngine].backgroundMusicVolume = 1.0;
+    }
+    if (![[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying] && self.backgroundMusic && ![self.backgroundMusic isEqualToString:@""]) {
+        if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:self.backgroundMusic ofType:@""]]) {
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:self.backgroundMusic];
+        } else {
+            NSAssert1(NO, @"%@ - Background music file not found", self.backgroundMusic);
+        }
+    }
+}
+
 - (void)pressedBook:(id)sender {
     [currentBook release];
     currentBook = [((CPBookButton *)sender).bookName retain];
     currentPage = 1;
     [CPBookShelf loadCurrentPageWithForward:YES];
+}
+
+- (void)dealloc {
+    [_backgroundMusic release];
+    [super dealloc];
 }
 
 @end

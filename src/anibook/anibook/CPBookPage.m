@@ -26,6 +26,7 @@
 
 - (void)didLoadFromCCB {
     self.animationManager = self.userObject;
+    
 }
 
 - (void)pressedHome:(id)sender {

@@ -11,7 +11,7 @@
 @implementation CPBookButton
 
 - (void)dealloc {
-    [self.bookName release];
+    [_bookName release];
     
     [super dealloc];
 }

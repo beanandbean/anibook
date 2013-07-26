@@ -10,6 +10,9 @@
 
 @interface CPBookShelf : CCLayer
 
+@property (retain, nonatomic) NSString *backgroundMusic;
+@property (nonatomic) float backgroundVolume;
+
 + (NSString *)currentBook;
 + (int)currentPage;
 + (void)increaseCurrentPage;

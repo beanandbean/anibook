@@ -48,11 +48,21 @@
 - (void)touchDown:(id)sender {
     if (self.soundEffect && ![self.soundEffect isEqualToString:@""]) {
         if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:self.soundEffect ofType:@""]]) {
+            if (self.soundVolume) {
+                [SimpleAudioEngine sharedEngine].effectsVolume = self.soundVolume;
+            } else {
+                [SimpleAudioEngine sharedEngine].effectsVolume = 1.0;
+            }
             [[SimpleAudioEngine sharedEngine] playEffect:self.soundEffect];
         } else {
             NSAssert1(NO, @"%@ - Sound file not found", self.soundEffect);
         }
     }
+}
+
+- (void)dealloc {
+    [_soundEffect release];
+    [super dealloc];
 }
 
 @end

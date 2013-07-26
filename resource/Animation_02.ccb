@@ -1170,6 +1170,16 @@
 						<key>value</key>
 						<string>Spaceship.caf</string>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>soundVolume</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>1</integer>
+						<key>value</key>
+						<string>0.800000</string>
+					</dict>
 				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Spaceship</string>
@@ -1710,6 +1720,16 @@
 						<key>value</key>
 						<string>Spaceship.caf</string>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>soundVolume</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>1</integer>
+						<key>value</key>
+						<string>0.800000</string>
+					</dict>
 				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Spaceship1</string>
@@ -1926,8 +1946,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

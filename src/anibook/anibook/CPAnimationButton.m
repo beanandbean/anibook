@@ -11,7 +11,7 @@
 @implementation CPAnimationButton
 
 - (void)dealloc {
-    [self.animationName release];
+    [_animationName release];
     [super dealloc];
 }
 
