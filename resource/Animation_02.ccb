@@ -7,7 +7,7 @@
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>fileType</key>
 	<string>CocosBuilder</string>
 	<key>fileVersion</key>
@@ -1160,6 +1160,16 @@
 						<key>value</key>
 						<string>Spaceship Timeline</string>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>soundEffect</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Spaceship.caf</string>
+					</dict>
 				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Spaceship</string>
@@ -1218,7 +1228,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>360</real>
+						<real>0.0</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1690,6 +1700,16 @@
 						<key>value</key>
 						<string>Spaceship1 Timeline</string>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>soundEffect</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Spaceship.caf</string>
+					</dict>
 				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Spaceship1</string>
@@ -1748,7 +1768,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>0.0</real>
+						<real>-360</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1906,6 +1926,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -2057,7 +2079,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>5</real>
+			<real>2.9000000953674316</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

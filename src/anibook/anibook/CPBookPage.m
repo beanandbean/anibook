@@ -31,17 +31,17 @@
 - (void)pressedHome:(id)sender {
     CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
     
-    [[CCDirector sharedDirector] replaceScene:[CCTransitionFlipX transitionWithDuration:1.0 scene:scene]];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5 scene:scene backwards:YES]];
 }
 
 - (void)pressedNext:(id)sender {
     [CPBookShelf increaseCurrentPage];
-    [CPBookShelf loadCurrentPage];
+    [CPBookShelf loadCurrentPageWithForward:YES];
 }
 
 - (void)pressedPrev:(id)sender {
     [CPBookShelf decreaseCurrentPage];
-    [CPBookShelf loadCurrentPage];
+    [CPBookShelf loadCurrentPageWithForward:NO];
 }
 
 - (void)pressedAnimation:(id)sender {

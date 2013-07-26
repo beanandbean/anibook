@@ -219,7 +219,8 @@
 		FCC48C8117A11FFD0058075C /* TowerSingle-06.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */; };
 		FCC48C8217A11FFD0058075C /* TowerSingle-07.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C7017A11FFD0058075C /* TowerSingle-07.png */; };
 		FCC48C8317A11FFD0058075C /* TowerSingle-08.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48C7117A11FFD0058075C /* TowerSingle-08.png */; };
-		FCC48CCA17A1359A0058075C /* ButtonSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = FCC48CC917A1359A0058075C /* ButtonSound.caf */; };
+		FCDCF8F217A26589000C8B52 /* ButtonSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = FCDCF8F017A26589000C8B52 /* ButtonSound.caf */; };
+		FCDCF8F317A26589000C8B52 /* Spaceship.caf in Resources */ = {isa = PBXBuildFile; fileRef = FCDCF8F117A26589000C8B52 /* Spaceship.caf */; };
 		FCF0E88417A1E9F600187F51 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF0E87C17A1E9F600187F51 /* CDAudioManager.m */; };
 		FCF0E88517A1E9F600187F51 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF0E87F17A1E9F600187F51 /* CDOpenALSupport.m */; };
 		FCF0E88617A1E9F600187F51 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF0E88117A1E9F600187F51 /* CocosDenshion.m */; };
@@ -600,7 +601,8 @@
 		FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-06.png"; sourceTree = "<group>"; };
 		FCC48C7017A11FFD0058075C /* TowerSingle-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-07.png"; sourceTree = "<group>"; };
 		FCC48C7117A11FFD0058075C /* TowerSingle-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSingle-08.png"; sourceTree = "<group>"; };
-		FCC48CC917A1359A0058075C /* ButtonSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ButtonSound.caf; path = Resources/ButtonSound.caf; sourceTree = "<group>"; };
+		FCDCF8F017A26589000C8B52 /* ButtonSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButtonSound.caf; sourceTree = "<group>"; };
+		FCDCF8F117A26589000C8B52 /* Spaceship.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spaceship.caf; sourceTree = "<group>"; };
 		FCF0E87B17A1E9F600187F51 /* CDAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAudioManager.h; sourceTree = "<group>"; };
 		FCF0E87C17A1E9F600187F51 /* CDAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAudioManager.m; sourceTree = "<group>"; };
 		FCF0E87D17A1E9F600187F51 /* CDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConfig.h; sourceTree = "<group>"; };
@@ -1207,16 +1209,16 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */,
 				2C10EB33179FF35B00BE3984 /* Animation_01.ccbi */,
 				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
 				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
 				FCBEA39B179C01D700028D49 /* BookShelf.ccbi */,
-				FCC48CC917A1359A0058075C /* ButtonSound.caf */,
 				FC9E3FB0179C0F1A0099DB82 /* fps_images-hd.png */,
 				FC9E3FB1179C0F1A0099DB82 /* fps_images.png */,
 				FCC48C5C17A11FF10058075C /* Hero.ccbi */,
 				FC67C15A179D301F002B383D /* Images */,
+				2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */,
+				FCDCF8EF17A26589000C8B52 /* Sounds */,
 				2CED752717A1086500FB53AF /* Tower.ccbi */,
 				FCC48C5D17A11FF10058075C /* TowerSingle.ccbi */,
 			);
@@ -1237,6 +1239,16 @@
 				FCF0E88317A1E9F600187F51 /* SimpleAudioEngine.m */,
 			);
 			path = CocosDenshion;
+			sourceTree = "<group>";
+		};
+		FCDCF8EF17A26589000C8B52 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FCDCF8F017A26589000C8B52 /* ButtonSound.caf */,
+				FCDCF8F117A26589000C8B52 /* Spaceship.caf */,
+			);
+			name = Sounds;
+			path = ../../../resource/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1355,7 +1367,6 @@
 				FCC48C8117A11FFD0058075C /* TowerSingle-06.png in Resources */,
 				FCC48C8217A11FFD0058075C /* TowerSingle-07.png in Resources */,
 				FCC48C8317A11FFD0058075C /* TowerSingle-08.png in Resources */,
-				FCC48CCA17A1359A0058075C /* ButtonSound.caf in Resources */,
 				FC0C17F217A20BC700E77F46 /* Icon.png in Resources */,
 				2CCAFC0217A259B9008BD23E /* Particle_01.ccbi in Resources */,
 				2CCAFC0917A259CF008BD23E /* Clouds.png in Resources */,
@@ -1363,6 +1374,8 @@
 				2CCAFC0B17A259CF008BD23E /* particle-stars.png in Resources */,
 				2CCAFC0D17A259CF008BD23E /* ParticleBackground.png in Resources */,
 				2CCAFC0E17A259CF008BD23E /* Wizard.png in Resources */,
+				FCDCF8F217A26589000C8B52 /* ButtonSound.caf in Resources */,
+				FCDCF8F317A26589000C8B52 /* Spaceship.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

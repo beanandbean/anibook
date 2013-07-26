@@ -15,6 +15,6 @@
 + (void)increaseCurrentPage;
 + (void)decreaseCurrentPage;
 
-+ (void)loadCurrentPage;
++ (void)loadCurrentPageWithForward:(BOOL)isForward;
 
 @end
