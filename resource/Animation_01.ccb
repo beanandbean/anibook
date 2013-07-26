@@ -1237,7 +1237,20 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>CPControlButton</string>
+				<key>customProperties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>soundEffect</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>ButtonSound.caf</string>
+					</dict>
+				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Next</string>
 				<key>memberVarAssignmentName</key>
@@ -1445,7 +1458,20 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>CPControlButton</string>
+				<key>customProperties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>soundEffect</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>ButtonSound.caf</string>
+					</dict>
+				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Home</string>
 				<key>memberVarAssignmentName</key>

@@ -8,6 +8,7 @@ AnimationButton.png
 AutoplayButton.png
 BookShelfBackground.png
 BookShelfTitle.png
+Clouds.png
 Earth.png
 Hero_01.png
 Hero_02.png
@@ -20,10 +21,14 @@ Hero_08.png
 Hero_09.png
 Hero_10.png
 HomeButton.png
+Icon.png
 Moon.png
 NextButton.png
 particle-fire.png
 particle-snow.png
+particle-stars.png
+particle-water.png
+ParticleBackground.png
 ParticleButon.png
 PreviousButton.png
 SoundButton.png
@@ -45,5 +50,7 @@ TowerSingle-05.png
 TowerSingle-06.png
 TowerSingle-07.png
 TowerSingle-08.png
+Wizard.png
+Particle_01.ccbi
 Tower.ccbi
 TowerSingle.ccbi

@@ -17,6 +17,13 @@
 		2C10EB43179FF39E00BE3984 /* CPBookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C10EB42179FF39E00BE3984 /* CPBookPage.m */; };
 		2CBD8292179FE9B500A86F27 /* CPBookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8291179FE9B500A86F27 /* CPBookShelf.m */; };
 		2CBD8295179FEA0C00A86F27 /* CPBookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8294179FEA0C00A86F27 /* CPBookButton.m */; };
+		2CCAFC0017A24A36008BD23E /* CPControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAFBFF17A24A36008BD23E /* CPControlButton.m */; };
+		2CCAFC0217A259B9008BD23E /* Particle_01.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */; };
+		2CCAFC0917A259CF008BD23E /* Clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0317A259CF008BD23E /* Clouds.png */; };
+		2CCAFC0A17A259CF008BD23E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0417A259CF008BD23E /* Icon.png */; };
+		2CCAFC0B17A259CF008BD23E /* particle-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0517A259CF008BD23E /* particle-stars.png */; };
+		2CCAFC0D17A259CF008BD23E /* ParticleBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0717A259CF008BD23E /* ParticleBackground.png */; };
+		2CCAFC0E17A259CF008BD23E /* Wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0817A259CF008BD23E /* Wizard.png */; };
 		2CED752817A1086500FB53AF /* Animation_02.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752517A1086500FB53AF /* Animation_02.ccbi */; };
 		2CED752917A1086500FB53AF /* Animation_03.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752617A1086500FB53AF /* Animation_03.ccbi */; };
 		2CED752A17A1086500FB53AF /* Tower.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CED752717A1086500FB53AF /* Tower.ccbi */; };
@@ -233,6 +240,14 @@
 		2CBD8291179FE9B500A86F27 /* CPBookShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookShelf.m; sourceTree = "<group>"; };
 		2CBD8293179FEA0C00A86F27 /* CPBookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBookButton.h; sourceTree = "<group>"; };
 		2CBD8294179FEA0C00A86F27 /* CPBookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookButton.m; sourceTree = "<group>"; };
+		2CCAFBFE17A24A36008BD23E /* CPControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPControlButton.h; sourceTree = "<group>"; };
+		2CCAFBFF17A24A36008BD23E /* CPControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPControlButton.m; sourceTree = "<group>"; };
+		2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Particle_01.ccbi; path = ../../../resource/Particle_01.ccbi; sourceTree = "<group>"; };
+		2CCAFC0317A259CF008BD23E /* Clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clouds.png; sourceTree = "<group>"; };
+		2CCAFC0417A259CF008BD23E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2CCAFC0517A259CF008BD23E /* particle-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "particle-stars.png"; sourceTree = "<group>"; };
+		2CCAFC0717A259CF008BD23E /* ParticleBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParticleBackground.png; sourceTree = "<group>"; };
+		2CCAFC0817A259CF008BD23E /* Wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wizard.png; sourceTree = "<group>"; };
 		2CED752517A1086500FB53AF /* Animation_02.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_02.ccbi; path = ../../../resource/Animation_02.ccbi; sourceTree = "<group>"; };
 		2CED752617A1086500FB53AF /* Animation_03.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_03.ccbi; path = ../../../resource/Animation_03.ccbi; sourceTree = "<group>"; };
 		2CED752717A1086500FB53AF /* Tower.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tower.ccbi; path = ../../../resource/Tower.ccbi; sourceTree = "<group>"; };
@@ -621,6 +636,11 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2CCAFC0317A259CF008BD23E /* Clouds.png */,
+				2CCAFC0417A259CF008BD23E /* Icon.png */,
+				2CCAFC0517A259CF008BD23E /* particle-stars.png */,
+				2CCAFC0717A259CF008BD23E /* ParticleBackground.png */,
+				2CCAFC0817A259CF008BD23E /* Wizard.png */,
 				FC0C17F117A20BC700E77F46 /* Icon.png */,
 				FCC48C6017A11FFD0058075C /* Hero_01.png */,
 				FCC48C6117A11FFD0058075C /* Hero_02.png */,
@@ -716,6 +736,8 @@
 				2C10EB42179FF39E00BE3984 /* CPBookPage.m */,
 				2CBD8290179FE9B500A86F27 /* CPBookShelf.h */,
 				2CBD8291179FE9B500A86F27 /* CPBookShelf.m */,
+				2CCAFBFE17A24A36008BD23E /* CPControlButton.h */,
+				2CCAFBFF17A24A36008BD23E /* CPControlButton.m */,
 				FC9AD441179BECDF00A0988E /* libs */,
 				FCBEA39A179C01BA00028D49 /* Resources */,
 				FC9AD42B179BEC4B00A0988E /* Supporting Files */,
@@ -1185,6 +1207,7 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */,
 				2C10EB33179FF35B00BE3984 /* Animation_01.ccbi */,
 				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
 				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
@@ -1334,6 +1357,12 @@
 				FCC48C8317A11FFD0058075C /* TowerSingle-08.png in Resources */,
 				FCC48CCA17A1359A0058075C /* ButtonSound.caf in Resources */,
 				FC0C17F217A20BC700E77F46 /* Icon.png in Resources */,
+				2CCAFC0217A259B9008BD23E /* Particle_01.ccbi in Resources */,
+				2CCAFC0917A259CF008BD23E /* Clouds.png in Resources */,
+				2CCAFC0A17A259CF008BD23E /* Icon.png in Resources */,
+				2CCAFC0B17A259CF008BD23E /* particle-stars.png in Resources */,
+				2CCAFC0D17A259CF008BD23E /* ParticleBackground.png in Resources */,
+				2CCAFC0E17A259CF008BD23E /* Wizard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1478,6 +1507,7 @@
 				FCF0E88517A1E9F600187F51 /* CDOpenALSupport.m in Sources */,
 				FCF0E88617A1E9F600187F51 /* CocosDenshion.m in Sources */,
 				FCF0E88717A1E9F600187F51 /* SimpleAudioEngine.m in Sources */,
+				2CCAFC0017A24A36008BD23E /* CPControlButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

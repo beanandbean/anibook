@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 codingpotato. All rights reserved.
 //
 
-#import "CCControlButton.h"
+#import "CPControlButton.h"
 
-@interface CPAnimationButton : CCControlButton
+@interface CPAnimationButton : CPControlButton
 
 @property (retain, nonatomic) NSString *animationName;
 
