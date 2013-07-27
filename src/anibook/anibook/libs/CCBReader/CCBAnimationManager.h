@@ -24,6 +24,7 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "CCBSequenceProperty.h"
 
 @class CCBSequence;
 
@@ -69,6 +70,16 @@
 - (void) runAnimationsForSequenceId:(int)seqId tweenDuration:(float) tweenDuration;
 
 - (void) debug;
+
+#pragma mark - Methods used by Category MovementFromAnimation
+
+- (int) sequenceIdForSequenceNamed:(NSString*)name;
+- (CCBSequence*) sequenceFromSequenceId:(int)seqId;
+
+- (void) setFirstFrameForNode:(CCNode*)node sequenceProperty:(CCBSequenceProperty*)seqProp tweenDuration:(float)tweenDuration;
+- (void) runActionsForNode:(CCNode*)node sequenceProperty:(CCBSequenceProperty*)seqProp tweenDuration:(float)tweenDuration;
+
+#pragma mark -
 
 @end
 

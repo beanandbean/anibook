@@ -8,8 +8,17 @@
 
 #import "CPControlButton.h"
 
-@interface CPAnimationButton : CPControlButton
+@interface CPAnimationButton : CCControlButton
+
+@property (retain, nonatomic) NSString *soundEffect;
+@property (nonatomic) float soundVolume;
 
 @property (retain, nonatomic) NSString *animationName;
+
+@property (retain, nonatomic) NSString *movementName;
+@property (retain, nonatomic) NSString *movementNodes;
+
+@property (nonatomic) int counterValue;
+@property (nonatomic) int counterMaxium;
 
 @end

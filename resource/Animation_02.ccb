@@ -1152,16 +1152,6 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>animationName</string>
-						<key>optimized</key>
-						<false/>
-						<key>type</key>
-						<integer>3</integer>
-						<key>value</key>
-						<string>Spaceship Timeline</string>
-					</dict>
-					<dict>
-						<key>name</key>
 						<string>soundEffect</string>
 						<key>optimized</key>
 						<false/>
@@ -1179,6 +1169,26 @@
 						<integer>1</integer>
 						<key>value</key>
 						<string>0.800000</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>movementName</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Spaceship Timeline</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>movementNodes</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>501</string>
 					</dict>
 				</array>
 				<key>displayName</key>
@@ -1239,6 +1249,14 @@
 						<string>Degrees</string>
 						<key>value</key>
 						<real>0.0</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>tag</string>
+						<key>type</key>
+						<string>Integer</string>
+						<key>value</key>
+						<integer>501</integer>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1702,16 +1720,6 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>animationName</string>
-						<key>optimized</key>
-						<false/>
-						<key>type</key>
-						<integer>3</integer>
-						<key>value</key>
-						<string>Spaceship1 Timeline</string>
-					</dict>
-					<dict>
-						<key>name</key>
 						<string>soundEffect</string>
 						<key>optimized</key>
 						<false/>
@@ -1729,6 +1737,26 @@
 						<integer>1</integer>
 						<key>value</key>
 						<string>0.800000</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>movementName</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>Spaceship1 Timeline</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>movementNodes</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>502</string>
 					</dict>
 				</array>
 				<key>displayName</key>
@@ -1789,6 +1817,14 @@
 						<string>Degrees</string>
 						<key>value</key>
 						<real>-360</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>tag</string>
+						<key>type</key>
+						<string>Integer</string>
+						<key>value</key>
+						<integer>502</integer>
 					</dict>
 					<dict>
 						<key>name</key>

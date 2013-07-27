@@ -17,6 +17,8 @@
 		2C10EB43179FF39E00BE3984 /* CPBookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C10EB42179FF39E00BE3984 /* CPBookPage.m */; };
 		2CBD8292179FE9B500A86F27 /* CPBookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8291179FE9B500A86F27 /* CPBookShelf.m */; };
 		2CBD8295179FEA0C00A86F27 /* CPBookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD8294179FEA0C00A86F27 /* CPBookButton.m */; };
+		2CC4FF9917A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4FF9817A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.m */; };
+		2CC4FF9C17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4FF9B17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.m */; };
 		2CCAFC0017A24A36008BD23E /* CPControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAFBFF17A24A36008BD23E /* CPControlButton.m */; };
 		2CCAFC0217A259B9008BD23E /* Particle_01.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */; };
 		2CCAFC0917A259CF008BD23E /* Clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAFC0317A259CF008BD23E /* Clouds.png */; };
@@ -242,6 +244,10 @@
 		2CBD8291179FE9B500A86F27 /* CPBookShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookShelf.m; sourceTree = "<group>"; };
 		2CBD8293179FEA0C00A86F27 /* CPBookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBookButton.h; sourceTree = "<group>"; };
 		2CBD8294179FEA0C00A86F27 /* CPBookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBookButton.m; sourceTree = "<group>"; };
+		2CC4FF9717A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBAnimationManager+MovementFromAnimation.h"; sourceTree = "<group>"; };
+		2CC4FF9817A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCBAnimationManager+MovementFromAnimation.m"; sourceTree = "<group>"; };
+		2CC4FF9A17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+RecursiveChildSearch.h"; sourceTree = "<group>"; };
+		2CC4FF9B17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+RecursiveChildSearch.m"; sourceTree = "<group>"; };
 		2CCAFBFE17A24A36008BD23E /* CPControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPControlButton.h; sourceTree = "<group>"; };
 		2CCAFBFF17A24A36008BD23E /* CPControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPControlButton.m; sourceTree = "<group>"; };
 		2CCAFC0117A259B9008BD23E /* Particle_01.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Particle_01.ccbi; path = ../../../resource/Particle_01.ccbi; sourceTree = "<group>"; };
@@ -730,6 +736,10 @@
 		FC9AD42A179BEC4B00A0988E /* anibook */ = {
 			isa = PBXGroup;
 			children = (
+				2CC4FF9717A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.h */,
+				2CC4FF9817A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.m */,
+				2CC4FF9A17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.h */,
+				2CC4FF9B17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.m */,
 				2CED753F17A109E400FB53AF /* CPAnimationButton.h */,
 				2CED754017A109E400FB53AF /* CPAnimationButton.m */,
 				FC9AD60C179BEECF00A0988E /* CPAppDelegate.h */,
@@ -1525,6 +1535,8 @@
 				FCF0E88617A1E9F600187F51 /* CocosDenshion.m in Sources */,
 				FCF0E88717A1E9F600187F51 /* SimpleAudioEngine.m in Sources */,
 				2CCAFC0017A24A36008BD23E /* CPControlButton.m in Sources */,
+				2CC4FF9917A3AC1F00AEEBCC /* CCBAnimationManager+MovementFromAnimation.m in Sources */,
+				2CC4FF9C17A3AFA600AEEBCC /* CCNode+RecursiveChildSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
