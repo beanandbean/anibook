@@ -41,6 +41,9 @@
 		2CED753E17A1093100FB53AF /* Tower8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753417A1093100FB53AF /* Tower8.png */; };
 		2CED754117A109E400FB53AF /* CPAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED754017A109E400FB53AF /* CPAnimationButton.m */; };
 		FC0C17F217A20BC700E77F46 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0C17F117A20BC700E77F46 /* Icon.png */; };
+		FC42A36C17A3D49700FFEBED /* Animation_04.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */; };
+		FC42A36F17A3D4A100FFEBED /* ChessBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36D17A3D4A100FFEBED /* ChessBoard.png */; };
+		FC42A37017A3D4A100FFEBED /* ChessHorse.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36E17A3D4A100FFEBED /* ChessHorse.png */; };
 		FC6D6763179E7C02003E9ACA /* AnimationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675B179E7C02003E9ACA /* AnimationButton.png */; };
 		FC6D6764179E7C02003E9ACA /* AutoplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675C179E7C02003E9ACA /* AutoplayButton.png */; };
 		FC6D6765179E7C02003E9ACA /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */; };
@@ -272,6 +275,9 @@
 		2CED753F17A109E400FB53AF /* CPAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationButton.h; sourceTree = "<group>"; };
 		2CED754017A109E400FB53AF /* CPAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationButton.m; sourceTree = "<group>"; };
 		FC0C17F117A20BC700E77F46 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../src/anibook/Icon.png; sourceTree = "<group>"; };
+		FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_04.ccbi; path = ../../../resource/Animation_04.ccbi; sourceTree = "<group>"; };
+		FC42A36D17A3D4A100FFEBED /* ChessBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessBoard.png; sourceTree = "<group>"; };
+		FC42A36E17A3D4A100FFEBED /* ChessHorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessHorse.png; sourceTree = "<group>"; };
 		FC6D675B179E7C02003E9ACA /* AnimationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimationButton.png; sourceTree = "<group>"; };
 		FC6D675C179E7C02003E9ACA /* AutoplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoplayButton.png; sourceTree = "<group>"; };
 		FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
@@ -646,6 +652,8 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FC42A36D17A3D4A100FFEBED /* ChessBoard.png */,
+				FC42A36E17A3D4A100FFEBED /* ChessHorse.png */,
 				2CCAFC0317A259CF008BD23E /* Clouds.png */,
 				2CCAFC0417A259CF008BD23E /* Icon.png */,
 				2CCAFC0517A259CF008BD23E /* particle-stars.png */,
@@ -1221,6 +1229,7 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */,
 				2C10EB33179FF35B00BE3984 /* Animation_01.ccbi */,
 				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
 				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
@@ -1390,6 +1399,9 @@
 				FCDCF8F217A26589000C8B52 /* ButtonSound.caf in Resources */,
 				FCDCF8F317A26589000C8B52 /* Spaceship.caf in Resources */,
 				FCDCF8F517A26E6F000C8B52 /* AnnieLisle.mp3 in Resources */,
+				FC42A36C17A3D49700FFEBED /* Animation_04.ccbi in Resources */,
+				FC42A36F17A3D4A100FFEBED /* ChessBoard.png in Resources */,
+				FC42A37017A3D4A100FFEBED /* ChessHorse.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
