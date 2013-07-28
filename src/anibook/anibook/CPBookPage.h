@@ -10,4 +10,6 @@
 
 @interface CPBookPage : CCLayer
 
+@property (retain, nonatomic) NSString *toggleStateParticles;
+
 @end

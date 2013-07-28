@@ -16,6 +16,8 @@
 #import "CCBAnimationManager.h"
 #import "CCBAnimationManager+MovementFromAnimation.h"
 
+#import "CCNode+RecursiveChildSearch.h"
+
 #import "SimpleAudioEngine.h"
 
 @interface CPBookPage ()
@@ -35,8 +37,20 @@
 }
 
 - (void)didLoadFromCCB {
+    [CCBAnimationManager cleanAnimatingNodeSet];
     self.animationManager = self.userObject;
-    
+    if (self.toggleStateParticles && ![self.toggleStateParticles isEqualToString:@""]) {
+        NSArray *particleTags = [self.toggleStateParticles componentsSeparatedByString:@","];
+        for (NSString *particleTagStr in particleTags) {
+            NSInteger particleTag = [particleTagStr integerValue];
+            CCParticleSystem *particleSys = (CCParticleSystem *)[self recursiveChildWithTag:particleTag];
+            if ([particleSys active]) {
+                [particleSys stopSystem];
+            } else {
+                [particleSys startSystem];
+            }
+        }
+    }
 }
 
 - (void)pressedHome:(id)sender {
@@ -57,38 +71,62 @@
 
 - (void)pressedAnimation:(id)sender {
     CPAnimationButton *button = (CPAnimationButton *)sender;
-
-    BOOL needSoundEffect = YES;
+    
+    BOOL ignorePress = YES;
     NSString *animationName = [CPBookPage stringWithString:button.animationName andCounterValue:button.counterValue];
     NSString *movementName = [CPBookPage stringWithString:button.movementName andCounterValue:button.counterValue];
     NSString *movementNodes = [CPBookPage stringWithString:button.movementNodes andCounterValue:button.counterValue];
-    if (animationName) {
-        [self.animationManager runAnimationsForSequenceNamed:animationName];
-    }
-    if (movementName) {
+    NSString *movementType = button.movementType;
+    NSString *toggleStateParticles = [CPBookPage stringWithString:button.toggleStateParticles andCounterValue:button.counterValue];
+    
+    if (movementName && ![movementName isEqualToString:@""]) {
         if (!movementNodes || [movementNodes isEqualToString:@""]) {
             movementNodes = @"ALL";
         }
-        needSoundEffect = [self.animationManager runMovementFromAnimationNamed:movementName onNodes:movementNodes];
+        ignorePress = ![self.animationManager runMovementFromAnimationNamed:movementName onNodes:movementNodes relative:movementType && [movementType isEqualToString:@"relative"]];
     }
-    
-    if (needSoundEffect && button.soundEffect && ![button.soundEffect isEqualToString:@""]) {
-        if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:button.soundEffect ofType:@""]]) {
-            if (button.soundVolume) {
-                [SimpleAudioEngine sharedEngine].effectsVolume = button.soundVolume;
+    if (animationName && ![animationName isEqualToString:@""]) {
+        [self.animationManager runAnimationsForSequenceNamed:animationName];
+        ignorePress = NO;
+    }
+    if (toggleStateParticles && ![toggleStateParticles isEqualToString:@""]) {
+        NSArray *particleTags = [toggleStateParticles componentsSeparatedByString:@","];
+        for (NSString *particleTagStr in particleTags) {
+            NSInteger particleTag = [particleTagStr integerValue];
+            CCParticleSystem *particleSys = (CCParticleSystem *)[self recursiveChildWithTag:particleTag];
+            if ([particleSys active]) {
+                [particleSys stopSystem];
             } else {
-                [SimpleAudioEngine sharedEngine].effectsVolume = 1.0;
+                [particleSys startSystem];
             }
-            [[SimpleAudioEngine sharedEngine] playEffect:button.soundEffect];
-        } else {
-            NSAssert1(NO, @"%@ - Sound file not found", button.soundEffect);
+            ignorePress = NO;
         }
     }
     
-    button.counterValue++;
-    if (button.counterValue > button.counterMaxium) {
-        button.counterValue = 0;
+    if (!ignorePress) {
+        if (button.soundEffect && ![button.soundEffect isEqualToString:@""]) {
+            if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:button.soundEffect ofType:@""]]) {
+                if (button.soundVolume) {
+                    [SimpleAudioEngine sharedEngine].effectsVolume = button.soundVolume;
+                } else {
+                    [SimpleAudioEngine sharedEngine].effectsVolume = 1.0;
+                }
+                [[SimpleAudioEngine sharedEngine] playEffect:button.soundEffect];
+            } else {
+                NSAssert1(NO, @"%@ - Sound file not found", button.soundEffect);
+            }
+        }
+        
+        button.counterValue++;
+        if (button.counterValue > button.counterMaxium) {
+            button.counterValue = 0;
+        }
     }
+}
+
+- (void)dealloc {
+    [_toggleStateParticles release];
+    [super dealloc];
 }
 
 @end

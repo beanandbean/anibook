@@ -478,6 +478,16 @@
 	return (particleCount == totalParticles);
 }
 
+#pragma mark - Add in anibook
+
+-(void) startSystem
+{
+    active = YES;
+    elapsed = 0;
+}
+
+#pragma mark -
+
 #pragma mark ParticleSystem - MainLoop
 -(void) update: (ccTime) dt
 {

@@ -451,6 +451,10 @@ typedef void (*CC_UPDATE_PARTICLE_IMP)(id, SEL, tCCParticle*, CGPoint);
 //! whether or not the system is full
 -(BOOL) isFull;
 
+#pragma mark - Add in anibook
+-(void) startSystem;
+#pragma mark -
+
 //! should be overriden by subclasses
 -(void) updateQuadWithParticle:(tCCParticle*)particle newPosition:(CGPoint)pos;
 //! should be overriden by subclasses

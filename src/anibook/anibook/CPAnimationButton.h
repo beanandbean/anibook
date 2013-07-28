@@ -17,6 +17,9 @@
 
 @property (retain, nonatomic) NSString *movementName;
 @property (retain, nonatomic) NSString *movementNodes;
+@property (retain, nonatomic) NSString *movementType;
+
+@property (retain, nonatomic) NSString *toggleStateParticles;
 
 @property (nonatomic) int counterValue;
 @property (nonatomic) int counterMaxium;

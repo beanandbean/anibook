@@ -46,9 +46,12 @@
 }
 
 - (void)dealloc {
+    [_soundEffect release];
     [_animationName release];
     [_movementName release];
     [_movementNodes release];
+    [_movementType release];
+    [_toggleStateParticles release];
     [super dealloc];
 }
 

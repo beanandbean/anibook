@@ -10,6 +10,8 @@
 
 @interface CCBAnimationManager (MovementFromAnimation)
 
-- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList;
++ (void)cleanAnimatingNodeSet;
+
+- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList relative:(BOOL)relative;
 
 @end

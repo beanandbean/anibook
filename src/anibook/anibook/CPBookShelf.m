@@ -12,6 +12,8 @@
 
 #import "CCBReader.h"
 
+#import "CCBAnimationManager+MovementFromAnimation.h"
+
 #import "SimpleAudioEngine.h"
 
 static NSString *currentBook;
@@ -47,6 +49,7 @@ static int currentPage;
 }
 
 - (void)didLoadFromCCB {
+    [CCBAnimationManager cleanAnimatingNodeSet];
     if (self.backgroundVolume) {
         [SimpleAudioEngine sharedEngine].backgroundMusicVolume = 0.6;
     } else {
