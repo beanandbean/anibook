@@ -1359,6 +1359,16 @@
 						<key>value</key>
 						<string>200</string>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>soundEffect</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>HorseSound.caf</string>
+					</dict>
 				</array>
 				<key>displayName</key>
 				<string>CCControlButton - Chess Horse</string>
@@ -1573,6 +1583,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>

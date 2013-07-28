@@ -54,6 +54,10 @@
 		FC42A36C17A3D49700FFEBED /* Animation_04.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */; };
 		FC42A36F17A3D4A100FFEBED /* ChessBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36D17A3D4A100FFEBED /* ChessBoard.png */; };
 		FC42A37017A3D4A100FFEBED /* ChessHorse.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36E17A3D4A100FFEBED /* ChessHorse.png */; };
+		FC608FB817A51CB7003C2B06 /* QueenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC608FB717A51CB7003C2B06 /* QueenButton.png */; };
+		FC608FBC17A522EF003C2B06 /* HorseSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC608FB917A522EF003C2B06 /* HorseSound.caf */; };
+		FC608FBD17A522EF003C2B06 /* QueenLongSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC608FBA17A522EF003C2B06 /* QueenLongSound.caf */; };
+		FC608FBE17A522EF003C2B06 /* QueenShortSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC608FBB17A522EF003C2B06 /* QueenShortSound.caf */; };
 		FC6D6763179E7C02003E9ACA /* AnimationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675B179E7C02003E9ACA /* AnimationButton.png */; };
 		FC6D6764179E7C02003E9ACA /* AutoplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675C179E7C02003E9ACA /* AutoplayButton.png */; };
 		FC6D6765179E7C02003E9ACA /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */; };
@@ -298,6 +302,10 @@
 		FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_04.ccbi; path = ../../../resource/Animation_04.ccbi; sourceTree = "<group>"; };
 		FC42A36D17A3D4A100FFEBED /* ChessBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessBoard.png; sourceTree = "<group>"; };
 		FC42A36E17A3D4A100FFEBED /* ChessHorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessHorse.png; sourceTree = "<group>"; };
+		FC608FB717A51CB7003C2B06 /* QueenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QueenButton.png; sourceTree = "<group>"; };
+		FC608FB917A522EF003C2B06 /* HorseSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HorseSound.caf; sourceTree = "<group>"; };
+		FC608FBA17A522EF003C2B06 /* QueenLongSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = QueenLongSound.caf; sourceTree = "<group>"; };
+		FC608FBB17A522EF003C2B06 /* QueenShortSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = QueenShortSound.caf; sourceTree = "<group>"; };
 		FC6D675B179E7C02003E9ACA /* AnimationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimationButton.png; sourceTree = "<group>"; };
 		FC6D675C179E7C02003E9ACA /* AutoplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoplayButton.png; sourceTree = "<group>"; };
 		FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
@@ -707,6 +715,7 @@
 				2CCAFC0717A259CF008BD23E /* ParticleBackground.png */,
 				FC6D6761179E7C02003E9ACA /* ParticleButon.png */,
 				2C10EB3A179FF36A00BE3984 /* PreviousButton.png */,
+				FC608FB717A51CB7003C2B06 /* QueenButton.png */,
 				FC1DB96617A50B8600F60B1F /* RightButton.png */,
 				FC6D6762179E7C02003E9ACA /* SoundButton.png */,
 				2CED752B17A1093100FB53AF /* Spaceship.png */,
@@ -1297,6 +1306,9 @@
 			children = (
 				FCDCF8F417A26E6F000C8B52 /* AnnieLisle.mp3 */,
 				FCDCF8F017A26589000C8B52 /* ButtonSound.caf */,
+				FC608FB917A522EF003C2B06 /* HorseSound.caf */,
+				FC608FBA17A522EF003C2B06 /* QueenLongSound.caf */,
+				FC608FBB17A522EF003C2B06 /* QueenShortSound.caf */,
 				FCDCF8F117A26589000C8B52 /* Spaceship.caf */,
 			);
 			name = Sounds;
@@ -1442,6 +1454,10 @@
 				FC1DB96F17A50B8600F60B1F /* UpButton.png in Resources */,
 				FC1DB97017A50B8600F60B1F /* UpLeftButton.png in Resources */,
 				FC1DB97117A50B8600F60B1F /* UpRightButton.png in Resources */,
+				FC608FB817A51CB7003C2B06 /* QueenButton.png in Resources */,
+				FC608FBC17A522EF003C2B06 /* HorseSound.caf in Resources */,
+				FC608FBD17A522EF003C2B06 /* QueenLongSound.caf in Resources */,
+				FC608FBE17A522EF003C2B06 /* QueenShortSound.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
