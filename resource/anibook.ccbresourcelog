@@ -2,6 +2,7 @@ Animation_01.ccbi
 Animation_02.ccbi
 Animation_03.ccbi
 Animation_04.ccbi
+Animation_05.ccbi
 BookShelf.ccbi
 Hero.ccbi
 AnimationBackground.png
@@ -11,7 +12,11 @@ BookShelfBackground.png
 BookShelfTitle.png
 ChessBoard.png
 ChessHorse.png
+ChessQueen.png
 Clouds.png
+DownButton.png
+DownLeftButton.png
+DownRightButton.png
 Earth.png
 Hero_01.png
 Hero_02.png
@@ -25,6 +30,7 @@ Hero_09.png
 Hero_10.png
 HomeButton.png
 Icon.png
+LeftButton.png
 Moon.png
 NextButton.png
 particle-fire.png
@@ -33,6 +39,7 @@ particle-stars.png
 ParticleBackground.png
 ParticleButon.png
 PreviousButton.png
+RightButton.png
 SoundButton.png
 Spaceship.png
 Spaceship1.png
@@ -52,6 +59,9 @@ TowerSingle-05.png
 TowerSingle-06.png
 TowerSingle-07.png
 TowerSingle-08.png
+UpButton.png
+UpLeftButton.png
+UpRightButton.png
 Wizard.png
 Particle_01.ccbi
 Tower.ccbi

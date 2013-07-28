@@ -41,6 +41,16 @@
 		2CED753E17A1093100FB53AF /* Tower8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CED753417A1093100FB53AF /* Tower8.png */; };
 		2CED754117A109E400FB53AF /* CPAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED754017A109E400FB53AF /* CPAnimationButton.m */; };
 		FC0C17F217A20BC700E77F46 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0C17F117A20BC700E77F46 /* Icon.png */; };
+		FC1DB95F17A50B6400F60B1F /* Animation_05.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB95E17A50B6400F60B1F /* Animation_05.ccbi */; };
+		FC1DB96117A50B7100F60B1F /* ChessQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96017A50B7100F60B1F /* ChessQueen.png */; };
+		FC1DB96A17A50B8600F60B1F /* DownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96217A50B8600F60B1F /* DownButton.png */; };
+		FC1DB96B17A50B8600F60B1F /* DownLeftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96317A50B8600F60B1F /* DownLeftButton.png */; };
+		FC1DB96C17A50B8600F60B1F /* DownRightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96417A50B8600F60B1F /* DownRightButton.png */; };
+		FC1DB96D17A50B8600F60B1F /* LeftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96517A50B8600F60B1F /* LeftButton.png */; };
+		FC1DB96E17A50B8600F60B1F /* RightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96617A50B8600F60B1F /* RightButton.png */; };
+		FC1DB96F17A50B8600F60B1F /* UpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96717A50B8600F60B1F /* UpButton.png */; };
+		FC1DB97017A50B8600F60B1F /* UpLeftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96817A50B8600F60B1F /* UpLeftButton.png */; };
+		FC1DB97117A50B8600F60B1F /* UpRightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB96917A50B8600F60B1F /* UpRightButton.png */; };
 		FC42A36C17A3D49700FFEBED /* Animation_04.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */; };
 		FC42A36F17A3D4A100FFEBED /* ChessBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36D17A3D4A100FFEBED /* ChessBoard.png */; };
 		FC42A37017A3D4A100FFEBED /* ChessHorse.png in Resources */ = {isa = PBXBuildFile; fileRef = FC42A36E17A3D4A100FFEBED /* ChessHorse.png */; };
@@ -275,6 +285,16 @@
 		2CED753F17A109E400FB53AF /* CPAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationButton.h; sourceTree = "<group>"; };
 		2CED754017A109E400FB53AF /* CPAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationButton.m; sourceTree = "<group>"; };
 		FC0C17F117A20BC700E77F46 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../src/anibook/Icon.png; sourceTree = "<group>"; };
+		FC1DB95E17A50B6400F60B1F /* Animation_05.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_05.ccbi; path = ../../../resource/Animation_05.ccbi; sourceTree = "<group>"; };
+		FC1DB96017A50B7100F60B1F /* ChessQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessQueen.png; sourceTree = "<group>"; };
+		FC1DB96217A50B8600F60B1F /* DownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownButton.png; sourceTree = "<group>"; };
+		FC1DB96317A50B8600F60B1F /* DownLeftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownLeftButton.png; sourceTree = "<group>"; };
+		FC1DB96417A50B8600F60B1F /* DownRightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownRightButton.png; sourceTree = "<group>"; };
+		FC1DB96517A50B8600F60B1F /* LeftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftButton.png; sourceTree = "<group>"; };
+		FC1DB96617A50B8600F60B1F /* RightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightButton.png; sourceTree = "<group>"; };
+		FC1DB96717A50B8600F60B1F /* UpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpButton.png; sourceTree = "<group>"; };
+		FC1DB96817A50B8600F60B1F /* UpLeftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpLeftButton.png; sourceTree = "<group>"; };
+		FC1DB96917A50B8600F60B1F /* UpRightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpRightButton.png; sourceTree = "<group>"; };
 		FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Animation_04.ccbi; path = ../../../resource/Animation_04.ccbi; sourceTree = "<group>"; };
 		FC42A36D17A3D4A100FFEBED /* ChessBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessBoard.png; sourceTree = "<group>"; };
 		FC42A36E17A3D4A100FFEBED /* ChessHorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessHorse.png; sourceTree = "<group>"; };
@@ -652,14 +672,19 @@
 		FC67C15A179D301F002B383D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2C10EB35179FF36A00BE3984 /* AnimationBackground.png */,
+				FC6D675B179E7C02003E9ACA /* AnimationButton.png */,
+				FC6D675C179E7C02003E9ACA /* AutoplayButton.png */,
+				FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */,
+				FC6D675E179E7C02003E9ACA /* BookShelfTitle.png */,
 				FC42A36D17A3D4A100FFEBED /* ChessBoard.png */,
 				FC42A36E17A3D4A100FFEBED /* ChessHorse.png */,
+				FC1DB96017A50B7100F60B1F /* ChessQueen.png */,
 				2CCAFC0317A259CF008BD23E /* Clouds.png */,
-				2CCAFC0417A259CF008BD23E /* Icon.png */,
-				2CCAFC0517A259CF008BD23E /* particle-stars.png */,
-				2CCAFC0717A259CF008BD23E /* ParticleBackground.png */,
-				2CCAFC0817A259CF008BD23E /* Wizard.png */,
-				FC0C17F117A20BC700E77F46 /* Icon.png */,
+				FC1DB96217A50B8600F60B1F /* DownButton.png */,
+				FC1DB96317A50B8600F60B1F /* DownLeftButton.png */,
+				FC1DB96417A50B8600F60B1F /* DownRightButton.png */,
+				2C10EB36179FF36A00BE3984 /* Earth.png */,
 				FCC48C6017A11FFD0058075C /* Hero_01.png */,
 				FCC48C6117A11FFD0058075C /* Hero_02.png */,
 				FCC48C6217A11FFD0058075C /* Hero_03.png */,
@@ -670,14 +695,20 @@
 				FCC48C6717A11FFD0058075C /* Hero_08.png */,
 				FCC48C6817A11FFD0058075C /* Hero_09.png */,
 				FCC48C6917A11FFD0058075C /* Hero_10.png */,
-				FCC48C6A17A11FFD0058075C /* TowerSingle-01.png */,
-				FCC48C6B17A11FFD0058075C /* TowerSingle-02.png */,
-				FCC48C6C17A11FFD0058075C /* TowerSingle-03.png */,
-				FCC48C6D17A11FFD0058075C /* TowerSingle-04.png */,
-				FCC48C6E17A11FFD0058075C /* TowerSingle-05.png */,
-				FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */,
-				FCC48C7017A11FFD0058075C /* TowerSingle-07.png */,
-				FCC48C7117A11FFD0058075C /* TowerSingle-08.png */,
+				2C10EB37179FF36A00BE3984 /* HomeButton.png */,
+				2CCAFC0417A259CF008BD23E /* Icon.png */,
+				FC0C17F117A20BC700E77F46 /* Icon.png */,
+				FC1DB96517A50B8600F60B1F /* LeftButton.png */,
+				2C10EB38179FF36A00BE3984 /* Moon.png */,
+				2C10EB39179FF36A00BE3984 /* NextButton.png */,
+				FC6D675F179E7C02003E9ACA /* particle-fire.png */,
+				FC6D6760179E7C02003E9ACA /* particle-snow.png */,
+				2CCAFC0517A259CF008BD23E /* particle-stars.png */,
+				2CCAFC0717A259CF008BD23E /* ParticleBackground.png */,
+				FC6D6761179E7C02003E9ACA /* ParticleButon.png */,
+				2C10EB3A179FF36A00BE3984 /* PreviousButton.png */,
+				FC1DB96617A50B8600F60B1F /* RightButton.png */,
+				FC6D6762179E7C02003E9ACA /* SoundButton.png */,
 				2CED752B17A1093100FB53AF /* Spaceship.png */,
 				2CED752C17A1093100FB53AF /* Spaceship1.png */,
 				2CED752D17A1093100FB53AF /* Tower1.png */,
@@ -688,20 +719,18 @@
 				2CED753217A1093100FB53AF /* Tower6.png */,
 				2CED753317A1093100FB53AF /* Tower7.png */,
 				2CED753417A1093100FB53AF /* Tower8.png */,
-				2C10EB35179FF36A00BE3984 /* AnimationBackground.png */,
-				2C10EB36179FF36A00BE3984 /* Earth.png */,
-				2C10EB37179FF36A00BE3984 /* HomeButton.png */,
-				2C10EB38179FF36A00BE3984 /* Moon.png */,
-				2C10EB39179FF36A00BE3984 /* NextButton.png */,
-				2C10EB3A179FF36A00BE3984 /* PreviousButton.png */,
-				FC6D675B179E7C02003E9ACA /* AnimationButton.png */,
-				FC6D675C179E7C02003E9ACA /* AutoplayButton.png */,
-				FC6D675D179E7C02003E9ACA /* BookShelfBackground.png */,
-				FC6D675E179E7C02003E9ACA /* BookShelfTitle.png */,
-				FC6D675F179E7C02003E9ACA /* particle-fire.png */,
-				FC6D6760179E7C02003E9ACA /* particle-snow.png */,
-				FC6D6761179E7C02003E9ACA /* ParticleButon.png */,
-				FC6D6762179E7C02003E9ACA /* SoundButton.png */,
+				FCC48C6A17A11FFD0058075C /* TowerSingle-01.png */,
+				FCC48C6B17A11FFD0058075C /* TowerSingle-02.png */,
+				FCC48C6C17A11FFD0058075C /* TowerSingle-03.png */,
+				FCC48C6D17A11FFD0058075C /* TowerSingle-04.png */,
+				FCC48C6E17A11FFD0058075C /* TowerSingle-05.png */,
+				FCC48C6F17A11FFD0058075C /* TowerSingle-06.png */,
+				FCC48C7017A11FFD0058075C /* TowerSingle-07.png */,
+				FCC48C7117A11FFD0058075C /* TowerSingle-08.png */,
+				FC1DB96717A50B8600F60B1F /* UpButton.png */,
+				FC1DB96817A50B8600F60B1F /* UpLeftButton.png */,
+				FC1DB96917A50B8600F60B1F /* UpRightButton.png */,
+				2CCAFC0817A259CF008BD23E /* Wizard.png */,
 			);
 			name = Images;
 			path = ../../../resource/Images;
@@ -1229,10 +1258,11 @@
 		FCBEA39A179C01BA00028D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */,
 				2C10EB33179FF35B00BE3984 /* Animation_01.ccbi */,
 				2CED752517A1086500FB53AF /* Animation_02.ccbi */,
 				2CED752617A1086500FB53AF /* Animation_03.ccbi */,
+				FC42A36B17A3D49700FFEBED /* Animation_04.ccbi */,
+				FC1DB95E17A50B6400F60B1F /* Animation_05.ccbi */,
 				FCBEA39B179C01D700028D49 /* BookShelf.ccbi */,
 				FC9E3FB0179C0F1A0099DB82 /* fps_images-hd.png */,
 				FC9E3FB1179C0F1A0099DB82 /* fps_images.png */,
@@ -1402,6 +1432,16 @@
 				FC42A36C17A3D49700FFEBED /* Animation_04.ccbi in Resources */,
 				FC42A36F17A3D4A100FFEBED /* ChessBoard.png in Resources */,
 				FC42A37017A3D4A100FFEBED /* ChessHorse.png in Resources */,
+				FC1DB95F17A50B6400F60B1F /* Animation_05.ccbi in Resources */,
+				FC1DB96117A50B7100F60B1F /* ChessQueen.png in Resources */,
+				FC1DB96A17A50B8600F60B1F /* DownButton.png in Resources */,
+				FC1DB96B17A50B8600F60B1F /* DownLeftButton.png in Resources */,
+				FC1DB96C17A50B8600F60B1F /* DownRightButton.png in Resources */,
+				FC1DB96D17A50B8600F60B1F /* LeftButton.png in Resources */,
+				FC1DB96E17A50B8600F60B1F /* RightButton.png in Resources */,
+				FC1DB96F17A50B8600F60B1F /* UpButton.png in Resources */,
+				FC1DB97017A50B8600F60B1F /* UpLeftButton.png in Resources */,
+				FC1DB97117A50B8600F60B1F /* UpRightButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
