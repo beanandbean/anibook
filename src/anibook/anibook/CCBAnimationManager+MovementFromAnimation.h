@@ -12,6 +12,6 @@
 
 + (void)cleanAnimatingNodeSet;
 
-- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList relative:(BOOL)relative;
+- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList movementType:(NSString *)type;
 
 @end

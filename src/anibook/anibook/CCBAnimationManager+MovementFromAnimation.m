@@ -23,16 +23,16 @@ static NSMutableSet *animatingNode;
     animatingNode = [[NSMutableSet alloc] init];
 }
 
-- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList relative:(BOOL)relative {
-    return [self runMovementFromAnimationNamed:animationName onNodes:nodeList tweenDuration:0.0 relative:relative];
+- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList movementType:(NSString *)type {
+    return [self runMovementFromAnimationNamed:animationName onNodes:nodeList tweenDuration:0.0 movementType:type];
 }
 
-- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList tweenDuration:(float)tweenDuration relative:(BOOL)relative {
+- (BOOL)runMovementFromAnimationNamed:(NSString *)animationName onNodes:(NSString *)nodeList tweenDuration:(float)tweenDuration movementType:(NSString *)type {
     int animationId = [self sequenceIdForSequenceNamed:animationName];
-    return [self runMovementFromAnimationWithId:animationId onNodes:nodeList tweenDuration:tweenDuration relative:relative];
+    return [self runMovementFromAnimationWithId:animationId onNodes:nodeList tweenDuration:tweenDuration movementType:type];
 }
 
-- (BOOL)runMovementFromAnimationWithId:(int)animationId onNodes:(NSString *)nodeList tweenDuration:(float)tweenDuration relative:(BOOL)relative {
+- (BOOL)runMovementFromAnimationWithId:(int)animationId onNodes:(NSString *)nodeList tweenDuration:(float)tweenDuration movementType:(NSString *)type {
     NSAssert1(animationId != -1, @"Animation id %d couldn't be found", animationId);
     
     NSMutableArray *nodeArray = [NSMutableArray array];
@@ -67,11 +67,15 @@ static NSMutableSet *animatingNode;
         for (NSString *propName in seqNodeProps) {
             CCBSequenceProperty *seqProp = [seqNodeProps objectForKey:propName];
             
-            if (relative) {
+            if ([type isEqualToString:@"relative"]) {
                 [self runRelativeActionsForNode:node sequenceProperty:seqProp tweenDuration:tweenDuration];
-            } else {
+            } else if ([type isEqualToString:@"absolute"]) {
                 [self setFirstFrameForNode:node sequenceProperty:seqProp tweenDuration:tweenDuration];
                 [self runActionsForNode:node sequenceProperty:seqProp tweenDuration:tweenDuration];
+            } else if ([type isEqualToString:@"destination"]) {
+                [self runActionsForNode:node sequenceProperty:seqProp tweenDuration:tweenDuration];
+            } else {
+                return NO;
             }
         }
         

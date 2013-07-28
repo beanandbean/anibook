@@ -83,7 +83,10 @@
         if (!movementNodes || [movementNodes isEqualToString:@""]) {
             movementNodes = @"ALL";
         }
-        ignorePress = ![self.animationManager runMovementFromAnimationNamed:movementName onNodes:movementNodes relative:movementType && [movementType isEqualToString:@"relative"]];
+        if (!movementType || [movementType isEqualToString:@""]) {
+            movementType = @"absolute";
+        }
+        ignorePress = ![self.animationManager runMovementFromAnimationNamed:movementName onNodes:movementNodes movementType:movementType];
     }
     if (animationName && ![animationName isEqualToString:@""]) {
         [self.animationManager runAnimationsForSequenceNamed:animationName];
