@@ -67,7 +67,19 @@
             [CPBookShelf decreaseCurrentPage];
             [CPBookShelf loadCurrentPageWithForward:NO];
         } else if ([button.controlCommand isEqualToString:@"page"]) {
-            [CPBookShelf setCurrentPage:button.pageNumber];
+            if (button.pageNumber) {
+                [CPBookShelf setCurrentPage:button.pageNumber];
+            } else {
+                NSAssert(NO, @"No page number specified");
+            }
+            [CPBookShelf loadCurrentPageWithForward:YES];
+        } else if ([button.controlCommand isEqualToString:@"book"]) {
+            if (button.bookName && ![button.bookName isEqualToString:@""]) {
+                [CPBookShelf setCurrentBook:button.bookName];
+            } else {
+                NSAssert(NO, @"No book name specified");
+            }
+            [CPBookShelf setCurrentPage:1];
             [CPBookShelf loadCurrentPageWithForward:YES];
         }
     }

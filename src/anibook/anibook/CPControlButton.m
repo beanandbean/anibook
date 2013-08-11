@@ -50,7 +50,7 @@
 - (void)touchDown:(id)sender {
     if (self.buttonSound && ![self.buttonSound isEqualToString:@""]) {
         if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:self.buttonSound ofType:@""]]) {
-            if (self.buttonSound) {
+            if (self.buttonSoundVolume) {
                 [SimpleAudioEngine sharedEngine].effectsVolume = self.buttonSoundVolume;
             } else {
                 [SimpleAudioEngine sharedEngine].effectsVolume = 1.0;
@@ -63,8 +63,8 @@
 }
 
 - (void)dealloc {
-    [_bookName release];
     [_controlCommand release];
+    [_bookName release];
     [_animationName release];
     [_movementName release];
     [_movementNodes release];

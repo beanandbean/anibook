@@ -478,7 +478,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>CPBookButton</string>
+				<string>CPControlButton</string>
 				<key>customProperties</key>
 				<array>
 					<dict>
@@ -493,13 +493,23 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>soundEffect</string>
+						<string>buttonSound</string>
 						<key>optimized</key>
 						<false/>
 						<key>type</key>
 						<integer>3</integer>
 						<key>value</key>
 						<string>ButtonSound.caf</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>controlCommand</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>book</string>
 					</dict>
 				</array>
 				<key>displayName</key>
@@ -581,7 +591,7 @@
 						<string>BlockCCControl</string>
 						<key>value</key>
 						<array>
-							<string>pressedBook:</string>
+							<string>pressedButton:</string>
 							<integer>1</integer>
 							<integer>32</integer>
 						</array>
@@ -722,8 +732,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>animatedProperties</key>
@@ -1085,7 +1093,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>soundEffect</string>
+						<string>buttonSound</string>
 						<key>optimized</key>
 						<false/>
 						<key>type</key>
@@ -1304,8 +1312,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>animatedProperties</key>
@@ -1425,7 +1431,7 @@
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
-						<string>CPBookButton</string>
+						<string>CPControlButton</string>
 						<key>customProperties</key>
 						<array>
 							<dict>
@@ -1440,13 +1446,23 @@
 							</dict>
 							<dict>
 								<key>name</key>
-								<string>soundEffect</string>
+								<string>buttonSound</string>
 								<key>optimized</key>
 								<false/>
 								<key>type</key>
 								<integer>3</integer>
 								<key>value</key>
 								<string>ButtonSound.caf</string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>controlCommand</string>
+								<key>optimized</key>
+								<false/>
+								<key>type</key>
+								<integer>3</integer>
+								<key>value</key>
+								<string>book</string>
 							</dict>
 						</array>
 						<key>displayName</key>
@@ -1508,7 +1524,7 @@
 								<string>BlockCCControl</string>
 								<key>value</key>
 								<array>
-									<string>pressedBook:</string>
+									<string>pressedButton:</string>
 									<integer>1</integer>
 									<integer>32</integer>
 								</array>
@@ -1649,6 +1665,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -2228,7 +2246,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>soundEffect</string>
+						<string>buttonSound</string>
 						<key>optimized</key>
 						<false/>
 						<key>type</key>
@@ -2447,8 +2465,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

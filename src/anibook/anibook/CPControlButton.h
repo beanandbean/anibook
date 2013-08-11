@@ -10,11 +10,9 @@
 
 @interface CPControlButton : CCControlButton
 
-// Book Control
-@property (retain, nonatomic) NSString *bookName;
-
 // Page Control
 @property (retain, nonatomic) NSString *controlCommand;
+@property (retain, nonatomic) NSString *bookName;
 @property (nonatomic) int pageNumber;
 
 // Animation

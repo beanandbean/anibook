@@ -12,4 +12,6 @@
 
 @property (retain, nonatomic) NSString *toggleStateParticles;
 
+- (void)didLoadFromCCB;
+
 @end

@@ -12,8 +12,6 @@
 
 #import "CCBReader.h"
 
-#import "CCBAnimationManager+MovementFromAnimation.h"
-
 #import "SimpleAudioEngine.h"
 
 static NSString *currentBook;
@@ -23,6 +21,11 @@ static int currentPage;
 
 + (NSString *)currentBook {
     return currentBook;
+}
+
++ (void)setCurrentBook:(NSString *)book {
+    [currentBook release];
+    currentBook = [book retain];
 }
 
 + (int)currentPage {
@@ -53,7 +56,7 @@ static int currentPage;
 }
 
 - (void)didLoadFromCCB {
-    [CCBAnimationManager cleanAnimatingNodeSet];
+    [super didLoadFromCCB];
     if (self.backgroundVolume) {
         [SimpleAudioEngine sharedEngine].backgroundMusicVolume = 0.6;
     } else {
@@ -66,13 +69,6 @@ static int currentPage;
             NSAssert1(NO, @"%@ - Background music file not found", self.backgroundMusic);
         }
     }
-}
-
-- (void)pressedBook:(id)sender {
-    [currentBook release];
-    currentBook = [((CPControlButton *)sender).bookName retain];
-    currentPage = 1;
-    [CPBookShelf loadCurrentPageWithForward:YES];
 }
 
 - (void)dealloc {

@@ -7,13 +7,16 @@
 //
 
 #import "cocos2d.h"
+#import "CPBookPage.h"
 
-@interface CPBookShelf : CCLayer
+@interface CPBookShelf : CPBookPage
 
 @property (retain, nonatomic) NSString *backgroundMusic;
 @property (nonatomic) float backgroundVolume;
 
 + (NSString *)currentBook;
++ (void)setCurrentBook:(NSString *)book;
+
 + (int)currentPage;
 + (void)increaseCurrentPage;
 + (void)decreaseCurrentPage;

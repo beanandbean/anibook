@@ -103,7 +103,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>controlButton</string>
+						<string>controlCommand</string>
 						<key>optimized</key>
 						<false/>
 						<key>type</key>
@@ -784,6 +784,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>

@@ -669,7 +669,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>CPAnimationButton</string>
+				<string>CPControlButton</string>
 				<key>customProperties</key>
 				<array>
 					<dict>
@@ -742,7 +742,7 @@
 						<string>BlockCCControl</string>
 						<key>value</key>
 						<array>
-							<string>pressedAnimation:</string>
+							<string>pressedButton:</string>
 							<integer>1</integer>
 							<integer>32</integer>
 						</array>
@@ -890,7 +890,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>CPAnimationButton</string>
+				<string>CPControlButton</string>
 				<key>customProperties</key>
 				<array>
 					<dict>
@@ -963,7 +963,7 @@
 						<string>BlockCCControl</string>
 						<key>value</key>
 						<array>
-							<string>pressedAnimation:</string>
+							<string>pressedButton:</string>
 							<integer>1</integer>
 							<integer>32</integer>
 						</array>
@@ -1104,6 +1104,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
@@ -1116,7 +1118,17 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>soundEffect</string>
+						<string>controlCommand</string>
+						<key>optimized</key>
+						<false/>
+						<key>type</key>
+						<integer>3</integer>
+						<key>value</key>
+						<string>home</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>buttonSound</string>
 						<key>optimized</key>
 						<false/>
 						<key>type</key>
@@ -1184,7 +1196,7 @@
 						<string>BlockCCControl</string>
 						<key>value</key>
 						<array>
-							<string>pressedHome:</string>
+							<string>pressedButton:</string>
 							<integer>1</integer>
 							<integer>32</integer>
 						</array>
