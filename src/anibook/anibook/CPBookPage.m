@@ -10,7 +10,7 @@
 
 #import "CPBookShelf.h"
 
-#import "CPAnimationButton.h"
+#import "CPControlButton.h"
 
 #import "CCBReader.h"
 #import "CCBAnimationManager.h"
@@ -53,24 +53,24 @@
     }
 }
 
-- (void)pressedHome:(id)sender {
-    CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
+- (void)pressedButton:(id)sender {
+    CPControlButton *button = (CPControlButton *)sender;
     
-    [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5 scene:scene backwards:YES]];
-}
-
-- (void)pressedNext:(id)sender {
-    [CPBookShelf increaseCurrentPage];
-    [CPBookShelf loadCurrentPageWithForward:YES];
-}
-
-- (void)pressedPrev:(id)sender {
-    [CPBookShelf decreaseCurrentPage];
-    [CPBookShelf loadCurrentPageWithForward:NO];
-}
-
-- (void)pressedAnimation:(id)sender {
-    CPAnimationButton *button = (CPAnimationButton *)sender;
+    if (button.controlCommand) {
+        if ([button.controlCommand isEqualToString:@"home"]) {
+            CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
+            [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5 scene:scene backwards:YES]];
+        } else if ([button.controlCommand isEqualToString:@"next"]) {
+            [CPBookShelf increaseCurrentPage];
+            [CPBookShelf loadCurrentPageWithForward:YES];
+        } else if ([button.controlCommand isEqualToString:@"prev"]) {
+            [CPBookShelf decreaseCurrentPage];
+            [CPBookShelf loadCurrentPageWithForward:NO];
+        } else if ([button.controlCommand isEqualToString:@"page"]) {
+            [CPBookShelf setCurrentPage:button.pageNumber];
+            [CPBookShelf loadCurrentPageWithForward:YES];
+        }
+    }
     
     BOOL ignorePress = YES;
     NSString *animationName = [CPBookPage stringWithString:button.animationName andCounterValue:button.counterValue];
@@ -107,16 +107,16 @@
     }
     
     if (!ignorePress) {
-        if (button.soundEffect && ![button.soundEffect isEqualToString:@""]) {
-            if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:button.soundEffect ofType:@""]]) {
-                if (button.soundVolume) {
-                    [SimpleAudioEngine sharedEngine].effectsVolume = button.soundVolume;
+        if (button.animationSound && ![button.animationSound isEqualToString:@""]) {
+            if ([[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:button.animationSound ofType:@""]]) {
+                if (button.animationSoundVolume) {
+                    [SimpleAudioEngine sharedEngine].effectsVolume = button.animationSoundVolume;
                 } else {
                     [SimpleAudioEngine sharedEngine].effectsVolume = 1.0;
                 }
-                [[SimpleAudioEngine sharedEngine] playEffect:button.soundEffect];
+                [[SimpleAudioEngine sharedEngine] playEffect:button.animationSound];
             } else {
-                NSAssert1(NO, @"%@ - Sound file not found", button.soundEffect);
+                NSAssert1(NO, @"%@ - Sound file not found", button.animationSound);
             }
         }
         

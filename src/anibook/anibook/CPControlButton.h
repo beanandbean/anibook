@@ -10,7 +10,34 @@
 
 @interface CPControlButton : CCControlButton
 
-@property (retain, nonatomic) NSString *soundEffect;
-@property (nonatomic) float soundVolume;
+// Book Control
+@property (retain, nonatomic) NSString *bookName;
+
+// Page Control
+@property (retain, nonatomic) NSString *controlCommand;
+@property (nonatomic) int pageNumber;
+
+// Animation
+@property (retain, nonatomic) NSString *animationName;
+
+// Movement
+@property (retain, nonatomic) NSString *movementName;
+@property (retain, nonatomic) NSString *movementNodes;
+@property (retain, nonatomic) NSString *movementType;
+
+// Particle Control
+@property (retain, nonatomic) NSString *toggleStateParticles;
+
+// Button Sound
+@property (retain, nonatomic) NSString *buttonSound;
+@property (nonatomic) float buttonSoundVolume;
+
+// Animation Sound
+@property (retain, nonatomic) NSString *animationSound;
+@property (nonatomic) float animationSoundVolume;
+
+// Counter
+@property (nonatomic) int counterValue;
+@property (nonatomic) int counterMaxium;
 
 @end

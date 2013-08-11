@@ -8,7 +8,7 @@
 
 #import "CPBookShelf.h"
 
-#import "CPBookButton.h"
+#import "CPControlButton.h"
 
 #import "CCBReader.h"
 
@@ -35,6 +35,10 @@ static int currentPage;
 
 + (void)decreaseCurrentPage {
     currentPage--;
+}
+
++ (void)setCurrentPage:(int)page {
+    currentPage = page;
 }
 
 + (void)loadCurrentPageWithForward:(BOOL)isForward {
@@ -66,7 +70,7 @@ static int currentPage;
 
 - (void)pressedBook:(id)sender {
     [currentBook release];
-    currentBook = [((CPBookButton *)sender).bookName retain];
+    currentBook = [((CPControlButton *)sender).bookName retain];
     currentPage = 1;
     [CPBookShelf loadCurrentPageWithForward:YES];
 }
