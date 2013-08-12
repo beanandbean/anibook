@@ -12,6 +12,7 @@
 
 // Page Control
 @property (retain, nonatomic) NSString *controlCommand;
+@property (nonatomic) float controlDelay;
 @property (retain, nonatomic) NSString *bookName;
 @property (nonatomic) int pageNumber;
 

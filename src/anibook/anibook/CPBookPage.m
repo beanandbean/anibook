@@ -57,31 +57,15 @@
     CPControlButton *button = (CPControlButton *)sender;
     
     if (button.controlCommand) {
-        if ([button.controlCommand isEqualToString:@"home"]) {
-            CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
-            [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5 scene:scene backwards:YES]];
-        } else if ([button.controlCommand isEqualToString:@"next"]) {
-            [CPBookShelf increaseCurrentPage];
-            [CPBookShelf loadCurrentPageWithForward:YES];
-        } else if ([button.controlCommand isEqualToString:@"prev"]) {
-            [CPBookShelf decreaseCurrentPage];
-            [CPBookShelf loadCurrentPageWithForward:NO];
-        } else if ([button.controlCommand isEqualToString:@"page"]) {
-            if (button.pageNumber) {
-                [CPBookShelf setCurrentPage:button.pageNumber];
-            } else {
-                NSAssert(NO, @"No page number specified");
-            }
-            [CPBookShelf loadCurrentPageWithForward:YES];
-        } else if ([button.controlCommand isEqualToString:@"book"]) {
-            if (button.bookName && ![button.bookName isEqualToString:@""]) {
-                [CPBookShelf setCurrentBook:button.bookName];
-            } else {
-                NSAssert(NO, @"No book name specified");
-            }
-            [CPBookShelf setCurrentPage:1];
-            [CPBookShelf loadCurrentPageWithForward:YES];
+        CCAction *action;
+        if (button.controlDelay) {
+            float delaySeconds = button.controlDelay;
+            delaySeconds = (int)delaySeconds + (delaySeconds - (int)delaySeconds) * 100 / 30;
+            action = [CCSequence actionOne:[CCDelayTime actionWithDuration:delaySeconds] two:[CCCallFuncO actionWithTarget:self selector:@selector(performControlCommandOfButton:) object:button]];
+        } else {
+            action = [CCCallFuncO actionWithTarget:self selector:@selector(performControlCommandOfButton:) object:button];
         }
+        [self runAction:action];
     }
     
     BOOL ignorePress = YES;
@@ -136,6 +120,34 @@
         if (button.counterValue > button.counterMaxium) {
             button.counterValue = 0;
         }
+    }
+}
+
+- (void)performControlCommandOfButton:(CPControlButton *)button {
+    if ([button.controlCommand isEqualToString:@"home"]) {
+        CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"BookShelf.ccbi" owner:self];
+        [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5 scene:scene backwards:YES]];
+    } else if ([button.controlCommand isEqualToString:@"next"]) {
+        [CPBookShelf increaseCurrentPage];
+        [CPBookShelf loadCurrentPageWithForward:YES];
+    } else if ([button.controlCommand isEqualToString:@"prev"]) {
+        [CPBookShelf decreaseCurrentPage];
+        [CPBookShelf loadCurrentPageWithForward:NO];
+    } else if ([button.controlCommand isEqualToString:@"page"]) {
+        if (button.pageNumber) {
+            [CPBookShelf setCurrentPage:button.pageNumber];
+        } else {
+            NSAssert(NO, @"No page number specified");
+        }
+        [CPBookShelf loadCurrentPageWithForward:YES];
+    } else if ([button.controlCommand isEqualToString:@"book"]) {
+        if (button.bookName && ![button.bookName isEqualToString:@""]) {
+            [CPBookShelf setCurrentBook:button.bookName];
+        } else {
+            NSAssert(NO, @"No book name specified");
+        }
+        [CPBookShelf setCurrentPage:1];
+        [CPBookShelf loadCurrentPageWithForward:YES];
     }
 }
 
